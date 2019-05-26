@@ -1,0 +1,1000 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ja" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ja" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>概要 &mdash; EffekseerDoc  ドキュメント</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="next" title="TIPS" href="tips.html" />
+    <link rel="prev" title="Top" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> EffekseerDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Top</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">概要</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">動作環境、必要ランタイム等</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#windows">編集ツール(Windows)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#macos">編集ツール(macOS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">ランタイム</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">インストール、アンインストール</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">ライセンス</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">免責事項</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">連絡先</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">開発者</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">プログラム</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">翻訳</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">素材提供</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">著作権表示</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">ライセンス(ランタイム)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">ライセンス(ツール)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">更新履歴</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#c-19-05-13">1.43c（19/05/13）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-19-03-12">1.43b（19/03/12）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id16">1.43（19/03/02）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#f-19-01-19">1.42f（19/01/19）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#e-19-01-08">1.42e（19/01/08）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-19-01-06">1.42d（19/01/06）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-18-10-14">1.42c（18/10/14）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-18-09-25">1.42b（18/09/25）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#a-18-09-16">1.42a（18/09/16）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">1.42（18/09/16）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id18">1.41（18/09/13）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id19">1.40（18/09/12）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id20">1.32（17/11/21）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">1.31（17/11/04）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id22">1.30（17/11/01）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id23">1.22（16/08/21）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id24">1.20（16/06/24）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id25">1.10（16/02/28）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id26">1.01（15/08/26）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id27">1.00（15/07/15）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id28">0.610（14/07/16）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id29">0.602（14/06/27）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id30">0.601（14/03/22）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id31">0.60（14/03/01）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id32">0.54（14/01/03）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id33">0.53（13/11/23）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id34">0.50.2（13/11/09）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id35">0.50.1（13/11/04）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id36">0.50（13/09/23）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id37">0.40（13/04/20）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id38">0.32（13/01/05）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id39">0.31.2（12/11/03）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id40">0.31.1（12/08/19）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id41">0.31（12/08/18）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id42">0.30.1（12/08/04）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id43">0.30（12/07/10）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id44">0.20（12/06/16）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id45">0.18（11/11/27）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id46">0.17（11/11/05）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id47">0.16（11/10/22）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id48">0.15（11/06/11）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id49">0.14（11/03/31）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id50">0.13（11/03/28）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id51">0.12（11/03/22）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id52">0.11（11/03/21）</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id53">0.10（11/03/20）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tips.html">TIPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ToolTutorial/index.html">ツール・チュートリアル</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">概要</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">動作環境、必要ランタイム等</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#windows">編集ツール(Windows)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#macos">編集ツール(macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">ランタイム</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">インストール、アンインストール</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">ライセンス</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">免責事項</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">連絡先</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">開発者</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">プログラム</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">翻訳</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">素材提供</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">著作権表示</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13">ライセンス(ランタイム)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">ライセンス(ツール)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id15">更新履歴</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#c-19-05-13">1.43c（19/05/13）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-19-03-12">1.43b（19/03/12）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">1.43（19/03/02）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#f-19-01-19">1.42f（19/01/19）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#e-19-01-08">1.42e（19/01/08）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#d-19-01-06">1.42d（19/01/06）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-18-10-14">1.42c（18/10/14）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-18-09-25">1.42b（18/09/25）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-18-09-16">1.42a（18/09/16）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">1.42（18/09/16）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">1.41（18/09/13）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id19">1.40（18/09/12）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">1.32（17/11/21）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">1.31（17/11/04）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id22">1.30（17/11/01）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">1.22（16/08/21）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id24">1.20（16/06/24）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id25">1.10（16/02/28）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">1.01（15/08/26）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id27">1.00（15/07/15）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id28">0.610（14/07/16）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id29">0.602（14/06/27）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id30">0.601（14/03/22）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id31">0.60（14/03/01）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id32">0.54（14/01/03）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id33">0.53（13/11/23）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id34">0.50.2（13/11/09）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id35">0.50.1（13/11/04）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id36">0.50（13/09/23）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id37">0.40（13/04/20）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id38">0.32（13/01/05）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id39">0.31.2（12/11/03）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id40">0.31.1（12/08/19）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id41">0.31（12/08/18）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id42">0.30.1（12/08/04）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id43">0.30（12/07/10）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id44">0.20（12/06/16）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id45">0.18（11/11/27）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id46">0.17（11/11/05）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id47">0.16（11/10/22）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id48">0.15（11/06/11）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id49">0.14（11/03/31）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id50">0.13（11/03/28）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id51">0.12（11/03/22）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id52">0.11（11/03/21）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id53">0.10（11/03/20）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tips.html">TIPS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ToolTutorial/index.html">ツール・チュートリアル</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">EffekseerDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>概要</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/overview.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>概要<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id2">
+<h2>動作環境、必要ランタイム等<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="windows">
+<h3>編集ツール(Windows)<a class="headerlink" href="#windows" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Windows7 SP1以降のPC
+もし起動しない場合は下記のリンクからD3DCompiler_47.dllをインストールしてください。
+<a class="reference external" href="https://support.microsoft.com/ja-jp/help/4020302/the-net-framework-4-7-installation-is-blocked-on-windows-7-windows-ser">D3DCompiler_47.dll</a></p>
+</div>
+<div class="section" id="macos">
+<h3>編集ツール(macOS)<a class="headerlink" href="#macos" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>macOS Sierra以降のPC
+もし起動しない場合は下記のリンクからmonoをインストールしてください。
+<a class="reference external" href="https://www.mono-project.com/">mono</a></p>
+</div>
+<div class="section" id="id3">
+<h3>ランタイム<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>DirectX9(ShaderModel2.0以上)</li>
+<li>DirectX11(ShaderModel2.0以上)</li>
+<li>OpenGL 4.1以上</li>
+<li>OpenGL ES2.0以上</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>インストール、アンインストール<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>編集ツールは「Tool/」に存在します。レジストリ等の操作は一切しておりません。直接起動するか任意のディレクトリにコピーしてください。
+アンインストールする場合はディレクトリごと削除してください。</p>
+<p>ゲーム中でエフェクトを再生する場合はランタイム、Unity、DXライブラリといった別途パッケージをダウンロードするようお願いします。</p>
+<p>連番画像等の画像としてエフェクトを再生する場合は、
+<a class="reference external" href="ToolReference/record.html">録画</a>
+を参照してください。</p>
+</div>
+<div class="section" id="id5">
+<h2>ライセンス<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ランタイムのライセンスはMITライセンスとなっております。
+また、
+<a class="reference external" href="https://directxtk.codeplex.com/">DirectX Tool Kit</a>
+を使用しております。</p>
+<p>テクスチャ及びエフェクトのデータはCC-0です。ご自由にお使いください。</p>
+</div>
+<div class="section" id="id6">
+<h2>免責事項<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>本ソフトウェア及びランタイムを使用した際のトラブル等には一切責任を負いかねます。</p>
+</div>
+<div class="section" id="id7">
+<h2>連絡先<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>effekseer(at)gmail.com</p>
+</div>
+<div class="section" id="id8">
+<h2>開発者<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="id9">
+<h3>プログラム<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>S.Sawada</li>
+<li>うえした</li>
+<li>らいどっと</li>
+<li>Masa</li>
+<li>いも</li>
+<li>kou_yeung</li>
+<li>lltcggie</li>
+<li>Javel</li>
+<li>kage3</li>
+<li>Tiffanyx</li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h3>翻訳<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>AndrewFM</li>
+<li>wisteria</li>
+<li>kou_yeung</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h3>素材提供<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>S.Sawada</li>
+<li>Agate</li>
+<li>project弾幕Girls</li>
+<li>BirdStrike</li>
+<li>Neetpia</li>
+<li>BrokenDesk</li>
+<li>日陰者ピエール</li>
+<li>鈴木克史</li>
+<li>AndrewFM</li>
+<li>tktk</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id12">
+<h2>著作権表示<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="id13">
+<h3>ライセンス(ランタイム)<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">MIT</span> <span class="n">License</span> <span class="p">(</span><span class="n">MIT</span><span class="p">)</span>
+<span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">2011</span> <span class="n">Effekseer</span> <span class="n">Project</span>
+<span class="n">ermission</span> <span class="ow">is</span> <span class="n">hereby</span> <span class="n">granted</span><span class="p">,</span> <span class="n">free</span> <span class="n">of</span> <span class="n">charge</span><span class="p">,</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">person</span> <span class="n">obtaining</span> <span class="n">a</span> <span class="n">copy</span> <span class="n">of</span>
+<span class="n">this</span> <span class="n">software</span> <span class="ow">and</span> <span class="n">associated</span> <span class="n">documentation</span> <span class="n">files</span> <span class="p">(</span><span class="n">the</span> <span class="s2">&quot;Software&quot;</span><span class="p">),</span> <span class="n">to</span> <span class="n">deal</span> <span class="ow">in</span>
+<span class="n">the</span> <span class="n">Software</span> <span class="n">without</span> <span class="n">restriction</span><span class="p">,</span> <span class="n">including</span> <span class="n">without</span> <span class="n">limitation</span> <span class="n">the</span> <span class="n">rights</span> <span class="n">to</span>
+<span class="n">use</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">modify</span><span class="p">,</span> <span class="n">merge</span><span class="p">,</span> <span class="n">publish</span><span class="p">,</span> <span class="n">distribute</span><span class="p">,</span> <span class="n">sublicense</span><span class="p">,</span> <span class="ow">and</span><span class="o">/</span><span class="ow">or</span> <span class="n">sell</span> <span class="n">copies</span> <span class="n">of</span>
+<span class="n">the</span> <span class="n">Software</span><span class="p">,</span> <span class="ow">and</span> <span class="n">to</span> <span class="n">permit</span> <span class="n">persons</span> <span class="n">to</span> <span class="n">whom</span> <span class="n">the</span> <span class="n">Software</span> <span class="ow">is</span> <span class="n">furnished</span> <span class="n">to</span> <span class="n">do</span> <span class="n">so</span><span class="p">,</span>
+<span class="n">subject</span> <span class="n">to</span> <span class="n">the</span> <span class="n">following</span> <span class="n">conditions</span><span class="p">:</span>
+<span class="n">The</span> <span class="n">above</span> <span class="n">copyright</span> <span class="n">notice</span> <span class="ow">and</span> <span class="n">this</span> <span class="n">permission</span> <span class="n">notice</span> <span class="n">shall</span> <span class="n">be</span> <span class="n">included</span> <span class="ow">in</span> <span class="nb">all</span>
+<span class="n">copies</span> <span class="ow">or</span> <span class="n">substantial</span> <span class="n">portions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Software</span><span class="o">.</span>
+<span class="n">THE</span> <span class="n">SOFTWARE</span> <span class="n">IS</span> <span class="n">PROVIDED</span> <span class="s2">&quot;AS IS&quot;</span><span class="p">,</span> <span class="n">WITHOUT</span> <span class="n">WARRANTY</span> <span class="n">OF</span> <span class="n">ANY</span> <span class="n">KIND</span><span class="p">,</span> <span class="n">EXPRESS</span> <span class="n">OR</span>
+<span class="n">IMPLIED</span><span class="p">,</span> <span class="n">INCLUDING</span> <span class="n">BUT</span> <span class="n">NOT</span> <span class="n">LIMITED</span> <span class="n">TO</span> <span class="n">THE</span> <span class="n">WARRANTIES</span> <span class="n">OF</span> <span class="n">MERCHANTABILITY</span><span class="p">,</span> <span class="n">FITNESS</span>
+<span class="n">FOR</span> <span class="n">A</span> <span class="n">PARTICAR</span> <span class="n">PURPOSE</span> <span class="n">AND</span> <span class="n">NONINFRINGEMENT</span><span class="o">.</span> <span class="n">IN</span> <span class="n">NO</span> <span class="n">EVENT</span> <span class="n">SHALL</span> <span class="n">THE</span> <span class="n">AUTHORS</span> <span class="n">OR</span>
+<span class="n">COPYRIGHT</span> <span class="n">HOLDERS</span> <span class="n">BE</span> <span class="n">LIABLE</span> <span class="n">FOR</span> <span class="n">ANY</span> <span class="n">CLAIM</span><span class="p">,</span> <span class="n">DAMAGES</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">LIABILITY</span><span class="p">,</span> <span class="n">WHETHER</span>
+<span class="n">IN</span> <span class="n">AN</span> <span class="n">ACTION</span> <span class="n">OF</span> <span class="n">CONTRACT</span><span class="p">,</span> <span class="n">TORT</span> <span class="n">OR</span> <span class="n">OTHERWISE</span><span class="p">,</span> <span class="n">ARISING</span> <span class="n">FROM</span><span class="p">,</span> <span class="n">OUT</span> <span class="n">OF</span> <span class="n">OR</span> <span class="n">IN</span>
+<span class="n">CONNECTION</span> <span class="n">WITH</span> <span class="n">THE</span> <span class="n">SOFTWARE</span> <span class="n">OR</span> <span class="n">THE</span> <span class="n">USE</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">DEALINGS</span> <span class="n">IN</span> <span class="n">THE</span> <span class="n">SOFTWARE</span><span class="o">.</span>
+<span class="n">DirectX</span> <span class="n">Tool</span> <span class="n">Kit</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">directxtk</span><span class="o">.</span><span class="n">codeplex</span><span class="o">.</span><span class="n">com</span><span class="o">/</span>
+<span class="n">Microsoft</span> <span class="n">Public</span> <span class="n">License</span> <span class="p">(</span><span class="n">Ms</span><span class="o">-</span><span class="n">PL</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id14">
+<h3>ライセンス(ツール)<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">The</span> <span class="n">MIT</span> <span class="n">License</span> <span class="p">(</span><span class="n">MIT</span><span class="p">)</span>
+
+<span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="mi">2011</span> <span class="n">Effekseer</span> <span class="n">Project</span>
+
+<span class="n">Permission</span> <span class="ow">is</span> <span class="n">hereby</span> <span class="n">granted</span><span class="p">,</span> <span class="n">free</span> <span class="n">of</span> <span class="n">charge</span><span class="p">,</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">person</span> <span class="n">obtaining</span> <span class="n">a</span> <span class="n">copy</span> <span class="n">of</span>
+<span class="n">this</span> <span class="n">software</span> <span class="ow">and</span> <span class="n">associated</span> <span class="n">documentation</span> <span class="n">files</span> <span class="p">(</span><span class="n">the</span> <span class="s2">&quot;Software&quot;</span><span class="p">),</span> <span class="n">to</span> <span class="n">deal</span> <span class="ow">in</span>
+<span class="n">the</span> <span class="n">Software</span> <span class="n">without</span> <span class="n">restriction</span><span class="p">,</span> <span class="n">including</span> <span class="n">without</span> <span class="n">limitation</span> <span class="n">the</span> <span class="n">rights</span> <span class="n">to</span>
+<span class="n">use</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">modify</span><span class="p">,</span> <span class="n">merge</span><span class="p">,</span> <span class="n">publish</span><span class="p">,</span> <span class="n">distribute</span><span class="p">,</span> <span class="n">sublicense</span><span class="p">,</span> <span class="ow">and</span><span class="o">/</span><span class="ow">or</span> <span class="n">sell</span> <span class="n">copies</span> <span class="n">of</span>
+<span class="n">the</span> <span class="n">Software</span><span class="p">,</span> <span class="ow">and</span> <span class="n">to</span> <span class="n">permit</span> <span class="n">persons</span> <span class="n">to</span> <span class="n">whom</span> <span class="n">the</span> <span class="n">Software</span> <span class="ow">is</span> <span class="n">furnished</span> <span class="n">to</span> <span class="n">do</span> <span class="n">so</span><span class="p">,</span>
+<span class="n">subject</span> <span class="n">to</span> <span class="n">the</span> <span class="n">following</span> <span class="n">conditions</span><span class="p">:</span>
+
+<span class="n">The</span> <span class="n">above</span> <span class="n">copyright</span> <span class="n">notice</span> <span class="ow">and</span> <span class="n">this</span> <span class="n">permission</span> <span class="n">notice</span> <span class="n">shall</span> <span class="n">be</span> <span class="n">included</span> <span class="ow">in</span> <span class="nb">all</span>
+<span class="n">copies</span> <span class="ow">or</span> <span class="n">substantial</span> <span class="n">portions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Software</span><span class="o">.</span>
+
+<span class="n">THE</span> <span class="n">SOFTWARE</span> <span class="n">IS</span> <span class="n">PROVIDED</span> <span class="s2">&quot;AS IS&quot;</span><span class="p">,</span> <span class="n">WITHOUT</span> <span class="n">WARRANTY</span> <span class="n">OF</span> <span class="n">ANY</span> <span class="n">KIND</span><span class="p">,</span> <span class="n">EXPRESS</span> <span class="n">OR</span>
+<span class="n">IMPLIED</span><span class="p">,</span> <span class="n">INCLUDING</span> <span class="n">BUT</span> <span class="n">NOT</span> <span class="n">LIMITED</span> <span class="n">TO</span> <span class="n">THE</span> <span class="n">WARRANTIES</span> <span class="n">OF</span> <span class="n">MERCHANTABILITY</span><span class="p">,</span> <span class="n">FITNESS</span>
+<span class="n">FOR</span> <span class="n">A</span> <span class="n">PARTICULAR</span> <span class="n">PURPOSE</span> <span class="n">AND</span> <span class="n">NONINFRINGEMENT</span><span class="o">.</span> <span class="n">IN</span> <span class="n">NO</span> <span class="n">EVENT</span> <span class="n">SHALL</span> <span class="n">THE</span> <span class="n">AUTHORS</span> <span class="n">OR</span>
+<span class="n">COPYRIGHT</span> <span class="n">HOLDERS</span> <span class="n">BE</span> <span class="n">LIABLE</span> <span class="n">FOR</span> <span class="n">ANY</span> <span class="n">CLAIM</span><span class="p">,</span> <span class="n">DAMAGES</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">LIABILITY</span><span class="p">,</span> <span class="n">WHETHER</span>
+<span class="n">IN</span> <span class="n">AN</span> <span class="n">ACTION</span> <span class="n">OF</span> <span class="n">CONTRACT</span><span class="p">,</span> <span class="n">TORT</span> <span class="n">OR</span> <span class="n">OTHERWISE</span><span class="p">,</span> <span class="n">ARISING</span> <span class="n">FROM</span><span class="p">,</span> <span class="n">OUT</span> <span class="n">OF</span> <span class="n">OR</span> <span class="n">IN</span>
+<span class="n">CONNECTION</span> <span class="n">WITH</span> <span class="n">THE</span> <span class="n">SOFTWARE</span> <span class="n">OR</span> <span class="n">THE</span> <span class="n">USE</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">DEALINGS</span> <span class="n">IN</span> <span class="n">THE</span> <span class="n">SOFTWARE</span><span class="o">.</span>
+
+<span class="n">DirectX</span> <span class="n">Tool</span> <span class="n">Kit</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">directxtk</span><span class="o">.</span><span class="n">codeplex</span><span class="o">.</span><span class="n">com</span><span class="o">/</span>
+<span class="n">Microsoft</span> <span class="n">Public</span> <span class="n">License</span> <span class="p">(</span><span class="n">Ms</span><span class="o">-</span><span class="n">PL</span><span class="p">)</span>
+
+<span class="o">--</span> <span class="n">源真ゴシック</span> <span class="o">--</span>
+
+<span class="n">This</span> <span class="n">Font</span> <span class="n">Software</span> <span class="ow">is</span> <span class="n">licensed</span> <span class="n">under</span> <span class="n">the</span> <span class="n">SIL</span> <span class="n">Open</span> <span class="n">Font</span> <span class="n">License</span><span class="p">,</span> <span class="n">Version</span> <span class="mf">1.1</span><span class="o">.</span>
+<span class="n">This</span> <span class="n">license</span> <span class="ow">is</span> <span class="n">copied</span> <span class="n">below</span><span class="p">,</span> <span class="ow">and</span> <span class="ow">is</span> <span class="n">also</span> <span class="n">available</span> <span class="k">with</span> <span class="n">a</span> <span class="n">FAQ</span> <span class="n">at</span><span class="p">:</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">scripts</span><span class="o">.</span><span class="n">sil</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">OFL</span>
+
+<span class="o">-----------------------------------------------------------</span>
+<span class="n">SIL</span> <span class="n">OPEN</span> <span class="n">FONT</span> <span class="n">LICENSE</span> <span class="n">Version</span> <span class="mf">1.1</span> <span class="o">-</span> <span class="mi">26</span> <span class="n">February</span> <span class="mi">2007</span>
+<span class="o">-----------------------------------------------------------</span>
+
+<span class="n">PREAMBLE</span>
+<span class="n">The</span> <span class="n">goals</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Open</span> <span class="n">Font</span> <span class="n">License</span> <span class="p">(</span><span class="n">OFL</span><span class="p">)</span> <span class="n">are</span> <span class="n">to</span> <span class="n">stimulate</span> <span class="n">worldwide</span>
+<span class="n">development</span> <span class="n">of</span> <span class="n">collaborative</span> <span class="n">font</span> <span class="n">projects</span><span class="p">,</span> <span class="n">to</span> <span class="n">support</span> <span class="n">the</span> <span class="n">font</span> <span class="n">creation</span>
+<span class="n">efforts</span> <span class="n">of</span> <span class="n">academic</span> <span class="ow">and</span> <span class="n">linguistic</span> <span class="n">communities</span><span class="p">,</span> <span class="ow">and</span> <span class="n">to</span> <span class="n">provide</span> <span class="n">a</span> <span class="n">free</span> <span class="ow">and</span>
+<span class="nb">open</span> <span class="n">framework</span> <span class="ow">in</span> <span class="n">which</span> <span class="n">fonts</span> <span class="n">may</span> <span class="n">be</span> <span class="n">shared</span> <span class="ow">and</span> <span class="n">improved</span> <span class="ow">in</span> <span class="n">partnership</span>
+<span class="k">with</span> <span class="n">others</span><span class="o">.</span>
+
+<span class="n">The</span> <span class="n">OFL</span> <span class="n">allows</span> <span class="n">the</span> <span class="n">licensed</span> <span class="n">fonts</span> <span class="n">to</span> <span class="n">be</span> <span class="n">used</span><span class="p">,</span> <span class="n">studied</span><span class="p">,</span> <span class="n">modified</span> <span class="ow">and</span>
+<span class="n">redistributed</span> <span class="n">freely</span> <span class="k">as</span> <span class="n">long</span> <span class="k">as</span> <span class="n">they</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">sold</span> <span class="n">by</span> <span class="n">themselves</span><span class="o">.</span> <span class="n">The</span>
+<span class="n">fonts</span><span class="p">,</span> <span class="n">including</span> <span class="nb">any</span> <span class="n">derivative</span> <span class="n">works</span><span class="p">,</span> <span class="n">can</span> <span class="n">be</span> <span class="n">bundled</span><span class="p">,</span> <span class="n">embedded</span><span class="p">,</span> 
+<span class="n">redistributed</span> <span class="ow">and</span><span class="o">/</span><span class="ow">or</span> <span class="n">sold</span> <span class="k">with</span> <span class="nb">any</span> <span class="n">software</span> <span class="n">provided</span> <span class="n">that</span> <span class="nb">any</span> <span class="n">reserved</span>
+<span class="n">names</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">used</span> <span class="n">by</span> <span class="n">derivative</span> <span class="n">works</span><span class="o">.</span> <span class="n">The</span> <span class="n">fonts</span> <span class="ow">and</span> <span class="n">derivatives</span><span class="p">,</span>
+<span class="n">however</span><span class="p">,</span> <span class="n">cannot</span> <span class="n">be</span> <span class="n">released</span> <span class="n">under</span> <span class="nb">any</span> <span class="n">other</span> <span class="nb">type</span> <span class="n">of</span> <span class="n">license</span><span class="o">.</span> <span class="n">The</span>
+<span class="n">requirement</span> <span class="k">for</span> <span class="n">fonts</span> <span class="n">to</span> <span class="n">remain</span> <span class="n">under</span> <span class="n">this</span> <span class="n">license</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">apply</span>
+<span class="n">to</span> <span class="nb">any</span> <span class="n">document</span> <span class="n">created</span> <span class="n">using</span> <span class="n">the</span> <span class="n">fonts</span> <span class="ow">or</span> <span class="n">their</span> <span class="n">derivatives</span><span class="o">.</span>
+
+<span class="n">DEFINITIONS</span>
+<span class="s2">&quot;Font Software&quot;</span> <span class="n">refers</span> <span class="n">to</span> <span class="n">the</span> <span class="nb">set</span> <span class="n">of</span> <span class="n">files</span> <span class="n">released</span> <span class="n">by</span> <span class="n">the</span> <span class="n">Copyright</span>
+<span class="n">Holder</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">under</span> <span class="n">this</span> <span class="n">license</span> <span class="ow">and</span> <span class="n">clearly</span> <span class="n">marked</span> <span class="k">as</span> <span class="n">such</span><span class="o">.</span> <span class="n">This</span> <span class="n">may</span>
+<span class="n">include</span> <span class="n">source</span> <span class="n">files</span><span class="p">,</span> <span class="n">build</span> <span class="n">scripts</span> <span class="ow">and</span> <span class="n">documentation</span><span class="o">.</span>
+
+<span class="s2">&quot;Reserved Font Name&quot;</span> <span class="n">refers</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">names</span> <span class="n">specified</span> <span class="k">as</span> <span class="n">such</span> <span class="n">after</span> <span class="n">the</span>
+<span class="n">copyright</span> <span class="n">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">.</span>
+
+<span class="s2">&quot;Original Version&quot;</span> <span class="n">refers</span> <span class="n">to</span> <span class="n">the</span> <span class="n">collection</span> <span class="n">of</span> <span class="n">Font</span> <span class="n">Software</span> <span class="n">components</span> <span class="k">as</span>
+<span class="n">distributed</span> <span class="n">by</span> <span class="n">the</span> <span class="n">Copyright</span> <span class="n">Holder</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">.</span>
+
+<span class="s2">&quot;Modified Version&quot;</span> <span class="n">refers</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">derivative</span> <span class="n">made</span> <span class="n">by</span> <span class="n">adding</span> <span class="n">to</span><span class="p">,</span> <span class="n">deleting</span><span class="p">,</span>
+<span class="ow">or</span> <span class="n">substituting</span> <span class="o">--</span> <span class="ow">in</span> <span class="n">part</span> <span class="ow">or</span> <span class="ow">in</span> <span class="n">whole</span> <span class="o">--</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">the</span> <span class="n">components</span> <span class="n">of</span> <span class="n">the</span>
+<span class="n">Original</span> <span class="n">Version</span><span class="p">,</span> <span class="n">by</span> <span class="n">changing</span> <span class="n">formats</span> <span class="ow">or</span> <span class="n">by</span> <span class="n">porting</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span> <span class="n">to</span> <span class="n">a</span>
+<span class="n">new</span> <span class="n">environment</span><span class="o">.</span>
+
+<span class="s2">&quot;Author&quot;</span> <span class="n">refers</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">designer</span><span class="p">,</span> <span class="n">engineer</span><span class="p">,</span> <span class="n">programmer</span><span class="p">,</span> <span class="n">technical</span>
+<span class="n">writer</span> <span class="ow">or</span> <span class="n">other</span> <span class="n">person</span> <span class="n">who</span> <span class="n">contributed</span> <span class="n">to</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span><span class="o">.</span>
+
+<span class="n">PERMISSION</span> <span class="o">&amp;</span> <span class="n">CONDITIONS</span>
+<span class="n">Permission</span> <span class="ow">is</span> <span class="n">hereby</span> <span class="n">granted</span><span class="p">,</span> <span class="n">free</span> <span class="n">of</span> <span class="n">charge</span><span class="p">,</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">person</span> <span class="n">obtaining</span>
+<span class="n">a</span> <span class="n">copy</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span><span class="p">,</span> <span class="n">to</span> <span class="n">use</span><span class="p">,</span> <span class="n">study</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">merge</span><span class="p">,</span> <span class="n">embed</span><span class="p">,</span> <span class="n">modify</span><span class="p">,</span>
+<span class="n">redistribute</span><span class="p">,</span> <span class="ow">and</span> <span class="n">sell</span> <span class="n">modified</span> <span class="ow">and</span> <span class="n">unmodified</span> <span class="n">copies</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Font</span>
+<span class="n">Software</span><span class="p">,</span> <span class="n">subject</span> <span class="n">to</span> <span class="n">the</span> <span class="n">following</span> <span class="n">conditions</span><span class="p">:</span>
+
+<span class="mi">1</span><span class="p">)</span> <span class="n">Neither</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span> <span class="n">nor</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">its</span> <span class="n">individual</span> <span class="n">components</span><span class="p">,</span>
+<span class="ow">in</span> <span class="n">Original</span> <span class="ow">or</span> <span class="n">Modified</span> <span class="n">Versions</span><span class="p">,</span> <span class="n">may</span> <span class="n">be</span> <span class="n">sold</span> <span class="n">by</span> <span class="n">itself</span><span class="o">.</span>
+
+<span class="mi">2</span><span class="p">)</span> <span class="n">Original</span> <span class="ow">or</span> <span class="n">Modified</span> <span class="n">Versions</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span> <span class="n">may</span> <span class="n">be</span> <span class="n">bundled</span><span class="p">,</span>
+<span class="n">redistributed</span> <span class="ow">and</span><span class="o">/</span><span class="ow">or</span> <span class="n">sold</span> <span class="k">with</span> <span class="nb">any</span> <span class="n">software</span><span class="p">,</span> <span class="n">provided</span> <span class="n">that</span> <span class="n">each</span> <span class="n">copy</span>
+<span class="n">contains</span> <span class="n">the</span> <span class="n">above</span> <span class="n">copyright</span> <span class="n">notice</span> <span class="ow">and</span> <span class="n">this</span> <span class="n">license</span><span class="o">.</span> <span class="n">These</span> <span class="n">can</span> <span class="n">be</span>
+<span class="n">included</span> <span class="n">either</span> <span class="k">as</span> <span class="n">stand</span><span class="o">-</span><span class="n">alone</span> <span class="n">text</span> <span class="n">files</span><span class="p">,</span> <span class="n">human</span><span class="o">-</span><span class="n">readable</span> <span class="n">headers</span> <span class="ow">or</span>
+<span class="ow">in</span> <span class="n">the</span> <span class="n">appropriate</span> <span class="n">machine</span><span class="o">-</span><span class="n">readable</span> <span class="n">metadata</span> <span class="n">fields</span> <span class="n">within</span> <span class="n">text</span> <span class="ow">or</span>
+<span class="n">binary</span> <span class="n">files</span> <span class="k">as</span> <span class="n">long</span> <span class="k">as</span> <span class="n">those</span> <span class="n">fields</span> <span class="n">can</span> <span class="n">be</span> <span class="n">easily</span> <span class="n">viewed</span> <span class="n">by</span> <span class="n">the</span> <span class="n">user</span><span class="o">.</span>
+
+<span class="mi">3</span><span class="p">)</span> <span class="n">No</span> <span class="n">Modified</span> <span class="n">Version</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span> <span class="n">may</span> <span class="n">use</span> <span class="n">the</span> <span class="n">Reserved</span> <span class="n">Font</span>
+<span class="n">Name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">unless</span> <span class="n">explicit</span> <span class="n">written</span> <span class="n">permission</span> <span class="ow">is</span> <span class="n">granted</span> <span class="n">by</span> <span class="n">the</span> <span class="n">corresponding</span>
+<span class="n">Copyright</span> <span class="n">Holder</span><span class="o">.</span> <span class="n">This</span> <span class="n">restriction</span> <span class="n">only</span> <span class="n">applies</span> <span class="n">to</span> <span class="n">the</span> <span class="n">primary</span> <span class="n">font</span> <span class="n">name</span> <span class="k">as</span>
+<span class="n">presented</span> <span class="n">to</span> <span class="n">the</span> <span class="n">users</span><span class="o">.</span>
+
+<span class="mi">4</span><span class="p">)</span> <span class="n">The</span> <span class="n">name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Copyright</span> <span class="n">Holder</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="ow">or</span> <span class="n">the</span> <span class="n">Author</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Font</span>
+<span class="n">Software</span> <span class="n">shall</span> <span class="ow">not</span> <span class="n">be</span> <span class="n">used</span> <span class="n">to</span> <span class="n">promote</span><span class="p">,</span> <span class="n">endorse</span> <span class="ow">or</span> <span class="n">advertise</span> <span class="nb">any</span>
+<span class="n">Modified</span> <span class="n">Version</span><span class="p">,</span> <span class="k">except</span> <span class="n">to</span> <span class="n">acknowledge</span> <span class="n">the</span> <span class="n">contribution</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="n">of</span> <span class="n">the</span>
+<span class="n">Copyright</span> <span class="n">Holder</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">Author</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="ow">or</span> <span class="k">with</span> <span class="n">their</span> <span class="n">explicit</span> <span class="n">written</span>
+<span class="n">permission</span><span class="o">.</span>
+
+<span class="mi">5</span><span class="p">)</span> <span class="n">The</span> <span class="n">Font</span> <span class="n">Software</span><span class="p">,</span> <span class="n">modified</span> <span class="ow">or</span> <span class="n">unmodified</span><span class="p">,</span> <span class="ow">in</span> <span class="n">part</span> <span class="ow">or</span> <span class="ow">in</span> <span class="n">whole</span><span class="p">,</span>
+<span class="n">must</span> <span class="n">be</span> <span class="n">distributed</span> <span class="n">entirely</span> <span class="n">under</span> <span class="n">this</span> <span class="n">license</span><span class="p">,</span> <span class="ow">and</span> <span class="n">must</span> <span class="ow">not</span> <span class="n">be</span>
+<span class="n">distributed</span> <span class="n">under</span> <span class="nb">any</span> <span class="n">other</span> <span class="n">license</span><span class="o">.</span> <span class="n">The</span> <span class="n">requirement</span> <span class="k">for</span> <span class="n">fonts</span> <span class="n">to</span>
+<span class="n">remain</span> <span class="n">under</span> <span class="n">this</span> <span class="n">license</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">apply</span> <span class="n">to</span> <span class="nb">any</span> <span class="n">document</span> <span class="n">created</span>
+<span class="n">using</span> <span class="n">the</span> <span class="n">Font</span> <span class="n">Software</span><span class="o">.</span>
+
+<span class="n">TERMINATION</span>
+<span class="n">This</span> <span class="n">license</span> <span class="n">becomes</span> <span class="n">null</span> <span class="ow">and</span> <span class="n">void</span> <span class="k">if</span> <span class="nb">any</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">conditions</span> <span class="n">are</span>
+<span class="ow">not</span> <span class="n">met</span><span class="o">.</span>
+
+<span class="n">DISCLAIMER</span>
+<span class="n">THE</span> <span class="n">FONT</span> <span class="n">SOFTWARE</span> <span class="n">IS</span> <span class="n">PROVIDED</span> <span class="s2">&quot;AS IS&quot;</span><span class="p">,</span> <span class="n">WITHOUT</span> <span class="n">WARRANTY</span> <span class="n">OF</span> <span class="n">ANY</span> <span class="n">KIND</span><span class="p">,</span>
+<span class="n">EXPRESS</span> <span class="n">OR</span> <span class="n">IMPLIED</span><span class="p">,</span> <span class="n">INCLUDING</span> <span class="n">BUT</span> <span class="n">NOT</span> <span class="n">LIMITED</span> <span class="n">TO</span> <span class="n">ANY</span> <span class="n">WARRANTIES</span> <span class="n">OF</span>
+<span class="n">MERCHANTABILITY</span><span class="p">,</span> <span class="n">FITNESS</span> <span class="n">FOR</span> <span class="n">A</span> <span class="n">PARTICULAR</span> <span class="n">PURPOSE</span> <span class="n">AND</span> <span class="n">NONINFRINGEMENT</span>
+<span class="n">OF</span> <span class="n">COPYRIGHT</span><span class="p">,</span> <span class="n">PATENT</span><span class="p">,</span> <span class="n">TRADEMARK</span><span class="p">,</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">RIGHT</span><span class="o">.</span> <span class="n">IN</span> <span class="n">NO</span> <span class="n">EVENT</span> <span class="n">SHALL</span> <span class="n">THE</span>
+<span class="n">COPYRIGHT</span> <span class="n">HOLDER</span> <span class="n">BE</span> <span class="n">LIABLE</span> <span class="n">FOR</span> <span class="n">ANY</span> <span class="n">CLAIM</span><span class="p">,</span> <span class="n">DAMAGES</span> <span class="n">OR</span> <span class="n">OTHER</span> <span class="n">LIABILITY</span><span class="p">,</span>
+<span class="n">INCLUDING</span> <span class="n">ANY</span> <span class="n">GENERAL</span><span class="p">,</span> <span class="n">SPECIAL</span><span class="p">,</span> <span class="n">INDIRECT</span><span class="p">,</span> <span class="n">INCIDENTAL</span><span class="p">,</span> <span class="n">OR</span> <span class="n">CONSEQUENTIAL</span>
+<span class="n">DAMAGES</span><span class="p">,</span> <span class="n">WHETHER</span> <span class="n">IN</span> <span class="n">AN</span> <span class="n">ACTION</span> <span class="n">OF</span> <span class="n">CONTRACT</span><span class="p">,</span> <span class="n">TORT</span> <span class="n">OR</span> <span class="n">OTHERWISE</span><span class="p">,</span> <span class="n">ARISING</span>
+<span class="n">FROM</span><span class="p">,</span> <span class="n">OUT</span> <span class="n">OF</span> <span class="n">THE</span> <span class="n">USE</span> <span class="n">OR</span> <span class="n">INABILITY</span> <span class="n">TO</span> <span class="n">USE</span> <span class="n">THE</span> <span class="n">FONT</span> <span class="n">SOFTWARE</span> <span class="n">OR</span> <span class="n">FROM</span>
+<span class="n">OTHER</span> <span class="n">DEALINGS</span> <span class="n">IN</span> <span class="n">THE</span> <span class="n">FONT</span> <span class="n">SOFTWARE</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id15">
+<h2>更新履歴<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="c-19-05-13">
+<h3>1.43c（19/05/13）<a class="headerlink" href="#c-19-05-13" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ユーザー名が日本語の時にモデルファイルの読み込みに失敗する不具合の修正(Win)</li>
+</ul>
+</div>
+<div class="section" id="b-19-03-12">
+<h3>1.43b（19/03/12）<a class="headerlink" href="#b-19-03-12" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ファイルを開いた後に画面サイズを変えるとアイコンの画像が消える不具合の修正(Mac)</li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h3>1.43（19/03/02）<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>0フレーム目に生成された軌跡とリボンの挙動がおかしい不具合の修正</li>
+<li>SSEのバッファオーバーランでクラッシュする不具合の修正</li>
+<li>色のイージングを指定したときにAndroidでクラッシュする不具合の修正</li>
+<li>沢山のネットワーク機能の不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="f-19-01-19">
+<h3>1.42f（19/01/19）<a class="headerlink" href="#f-19-01-19" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>録画した画像のアスペクト比がおかしい不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="e-19-01-08">
+<h3>1.42e（19/01/08）<a class="headerlink" href="#e-19-01-08" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>デバッグモードでビルドされていた不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="d-19-01-06">
+<h3>1.42d（19/01/06）<a class="headerlink" href="#d-19-01-06" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>HSVカラーの編集の不具合を修正</li>
+<li>macOS 10.14 Mojave をサポート</li>
+</ul>
+</div>
+<div class="section" id="c-18-10-14">
+<h3>1.42c（18/10/14）<a class="headerlink" href="#c-18-10-14" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>Fカーブのキーが整数に合うように修正</li>
+<li>日本語が含まれるパスでアプリケーションを起動すると文字化けする不具合を修正</li>
+<li>閉じるボタンを複数回クリックすると複数ウインドウが表示される不具合を修正</li>
+<li>他のアプリケーションで開いているファイルに対して録画しようとすると落ちる不具合を修正</li>
+<li>Macでの録画の不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="b-18-09-25">
+<h3>1.42b（18/09/25）<a class="headerlink" href="#b-18-09-25" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：コマンドラインに関する様々な不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="a-18-09-16">
+<h3>1.42a（18/09/16）<a class="headerlink" href="#a-18-09-16" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：ピッチを変更すると落ちる不具合修正</li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h3>1.42（18/09/16）<a class="headerlink" href="#id17" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：展開していないノードツリービューのノードを選択できない不具合を修正</li>
+<li>不具合修正：振る舞い、カリング、全体に関する様々な不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h3>1.41（18/09/13）<a class="headerlink" href="#id18" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：UIの表示が崩れる不具合の修正(Mac)</li>
+<li>不具合修正：ドックパネルの挙動がおかしい不具合の修正</li>
+<li>不具合修正：ノードの貼り付けで落ちる不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h3>1.40（18/09/12）<a class="headerlink" href="#id19" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：UIの一新</li>
+<li>ツール：FBXローダーの改良。アニメーションありFBXを読み込めるように</li>
+<li>ツール：深度に関するパラメーターの追加</li>
+<li>ツール：ランダムに関するパラメーターの追加</li>
+<li>ツール：軌跡とリボンをスムーズにするパラメーターの追加</li>
+<li>ツール：自己歪みの追加</li>
+<li>ランタイム：スマートフォン上のパフォーマンス改善</li>
+<li>ランタイム：全環境上でのパフォーマンス改善</li>
+<li>不具合修正：1フレーム、パーティクルの生成が遅れる不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="id20">
+<h3>1.32（17/11/21）<a class="headerlink" href="#id20" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：FBXコンバーターの不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id21">
+<h3>1.31（17/11/04）<a class="headerlink" href="#id21" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>不具合修正：翻訳のミスを修正</li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h3>1.30（17/11/01）<a class="headerlink" href="#id22" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：アイコンを追加</li>
+<li>ツール：ファイルビューアを追加</li>
+<li>ツール：FBX と mqo 読み込みを追加</li>
+<li>ツール：Fカーブエディタを改良</li>
+<li>ツール：UV Fカーブを追加</li>
+<li>ランタイム：軌跡に拡大率が適用されるように変更</li>
+<li>不具合修正：リボンと軌跡のUVがずれる不具合を修正</li>
+<li>不具合修正：リボンの歪みが適用されない不具合を修正</li>
+<li>不具合修正：関数名のスペルミスを修正(Destory -&gt; Destroy)</li>
+<li>不具合修正：振る舞いがファイル読み込み時に初期化されない不具合を修正</li>
+<li>不具合修正：回転(軸)に関する不具合を修正</li>
+<li>不具合修正：歪み(モデル)に関する不具合を修正</li>
+<li>不具合修正：ノードのコピーに関する不具合を修正</li>
+<li>仕様変更：パーティクルが生成されてから0フレームで子のパーティクルを生成するように変更</li>
+<li>仕様変更：歪みのコールバックの戻り値をboolに変更</li>
+<li>仕様変更：ノードの最大個数を廃止</li>
+<li>仕様変更：生成位置の名称を生成方法に変更</li>
+<li>仕様変更：歪み方法。Effekseerのエフェクトが歪みにより歪まなくなりました。(1.4以降に自己歪みを追加する予定です。)</li>
+</ul>
+</div>
+<div class="section" id="id23">
+<h3>1.22（16/08/21）<a class="headerlink" href="#id23" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：リボンと軌跡がUVのスクロールに対応</li>
+<li>不具合修正：コピー貼り付けの誤動作を修正</li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h3>1.20（16/06/24）<a class="headerlink" href="#id24" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：透明度の自動推定を実装</li>
+<li>ツール：動画出力機能を実装</li>
+<li>ツール：ショートカットを変更</li>
+<li>不具合修正：歪みの描画がおかしくなる不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id25">
+<h3>1.10（16/02/28）<a class="headerlink" href="#id25" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：カラースペースの変更を実装</li>
+<li>ツール：英語版を実装</li>
+<li>不具合修正：メモリリークを修正</li>
+<li>不具合修正：回転と移動の値が異なっていた不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h3>1.01（15/08/26）<a class="headerlink" href="#id26" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：ターゲット位置の変更が反映されるように修正</li>
+<li>不具合修正：引力処理でターゲット位置に原点を指定すると描画されない問題を修正</li>
+<li>不具合修正：外輪・内輪の設定を、&quot;位置・速度・加速度&quot;としたとき、位置のyの値が入力した値によらず、位置のxの値と同じになる不具合の修正</li>
+<li>不具合修正：生成位置の円の設定で、分割数n、位置種類をランダムにした場合、n番目の位置にノードが生成されない不具合の修正</li>
+<li>不具合修正：StopRootを使用した後、エフェクトを大量に表示すると表示がおかしくなる不具合の修正</li>
+</ul>
+</div>
+<div class="section" id="id27">
+<h3>1.00（15/07/15）<a class="headerlink" href="#id27" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：プロジェクトのファイルサイズを削減</li>
+<li>ツール：録画機能を一新</li>
+<li>ランタイム：カリング機能の追加</li>
+<li>ランタイム：引力機能の追加</li>
+<li>ランタイム：高速化</li>
+<li>ランタイム：生成時間のランダムの実装(1つのノードの子ノードの最大個数が16に変更)</li>
+<li>ランタイム：libpng16.16.dylibが不要になるように変更</li>
+<li>不具合修正：ウインドウ位置の初期化でウインドウ位置が正しく初期化されない</li>
+<li>不具合修正：ツール複数起動時、ツール間のコピーでテクスチャのパスがおかしくなる</li>
+<li>不具合修正：最小化して終了した時、次起動するとエラー</li>
+<li>不具合修正：ステート復帰が不完全</li>
+<li>不具合修正：メモリリーク</li>
+</ul>
+</div>
+<div class="section" id="id28">
+<h3>0.610（14/07/16）<a class="headerlink" href="#id28" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ランタイム：D3DX及びDirectXTexを不必要になるよう変更</li>
+</ul>
+</div>
+<div class="section" id="id29">
+<h3>0.602（14/06/27）<a class="headerlink" href="#id29" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>バグ：ランタイムからエフェクトの回転が適用されない不具合を修正</li>
+<li>バグ：リングが左手座標系に対応していなかった不具合を修正</li>
+<li>バグ：リロード時、マテリアルへのパスが適用されなかった不具合を修正</li>
+<li>バグ：Matrix43の乗算が特定条件下で失敗する不具合を修正</li>
+<li>バグ：オーディオデバイスが存在しない時ツールがクラッシュする不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id30">
+<h3>0.601（14/03/22）<a class="headerlink" href="#id30" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>バグ：一部のエフェクトファイルを読み込めなかった不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id31">
+<h3>0.60（14/03/01）<a class="headerlink" href="#id31" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ランタイム：生成位置に円を追加</li>
+<li>ランタイム：複数のManagerで一部設定を共有できるように</li>
+<li>ランタイム：Windows版OpenGL描画でGLEWが不必要に</li>
+<li>ランタイム：Rendererのネームスペースの変更(EffekseerRenderer→EffekseerRenderer(DX9/DX11/GL))</li>
+<li>ランタイム：UnityPluginバージョンアップ</li>
+<li>バグ：OpenGL(Linux)でモデルが描画できなかった不具合を修正</li>
+<li>バグ：日本語のテクスチャファイルを読み込めなかった不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id32">
+<h3>0.54（14/01/03）<a class="headerlink" href="#id32" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>バグ：DXライブラリと組み合わせた際に表示がおかしくなる不具合を修正</li>
+<li>バグ：DirectXとOpenGLの互換性を向上(アルファブレンド)</li>
+<li>ランタイム：SetRestorationOfStatesFlagを追加</li>
+</ul>
+</div>
+<div class="section" id="id33">
+<h3>0.53（13/11/23）<a class="headerlink" href="#id33" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>バグ：オプション設定ファイルの保存先が間違っていた不具合を修正</li>
+<li>サンプル：Neetpiaより提供のエフェクトを追加</li>
+<li>ヘルプ：組込み関数の一覧を追加</li>
+</ul>
+</div>
+<div class="section" id="id34">
+<h3>0.50.2（13/11/09）<a class="headerlink" href="#id34" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ツール：オプションの保存方法を変更</li>
+</ul>
+</div>
+<div class="section" id="id35">
+<h3>0.50.1（13/11/04）<a class="headerlink" href="#id35" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ランタイム：Unityを最新バージョンに対応</li>
+<li>ランタイム：DirectX最新バージョンに対応</li>
+<li>ランタイム：UpdateHandleを追加</li>
+<li>ランタイム：cmakeに対応</li>
+<li>サンプル：project弾幕Girlsより提供のエフェクトを追加</li>
+</ul>
+</div>
+<div class="section" id="id36">
+<h3>0.50（13/09/23）<a class="headerlink" href="#id36" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>両方：軌跡レンダラーの追加</li>
+<li>ツール：エフェクトの振る舞い(編集中にツール上で大量に表示等を再現)の追加</li>
+<li>ツール：背景画像の切り替え追加</li>
+<li>ツール：マウスでの回転方向の向きを変更(オプションパネルで変更可能)</li>
+<li>ランタイム：DirectX11対応</li>
+<li>ランタイム：読み込み時に拡大率を設定できるよう引数を追加</li>
+<li>ランタイム：デバイスロスト対応を強化(DXライブラリでのフルスクリーン切り替えに対応)</li>
+<li>両方：バグ修正</li>
+</ul>
+</div>
+<div class="section" id="id37">
+<h3>0.40（13/04/20）<a class="headerlink" href="#id37" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>3Dオブジェクトの表示機能</li>
+<li>Fカーブ編集の追加</li>
+<li>モデルエミッター</li>
+<li>アプリケーション起動中のツールからのTCP/IP経由による動的エフェクト書き換え</li>
+<li>グリッドの色変更機能</li>
+<li>ツールのGUI改善(ノードツリー)</li>
+</ul>
+</div>
+<div class="section" id="id38">
+<h3>0.32（13/01/05）<a class="headerlink" href="#id38" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>エフェクト作成時に素材ロードの基準パスを指定できるように変更</li>
+<li>更新・描画の高速化</li>
+<li>Unityプラグイン対応</li>
+<li>様々な不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id39">
+<h3>0.31.2（12/11/03）<a class="headerlink" href="#id39" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>様々な不具合を修正</li>
+</ul>
+</div>
+<div class="section" id="id40">
+<h3>0.31.1（12/08/19）<a class="headerlink" href="#id40" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>深度テストと深度書き込みのフラグが入れ替わっていた不具合を修正</li>
+<li>リボンの頂点ロックの数が正しくない不具合を修正</li>
+<li>描画速度の最適化</li>
+</ul>
+</div>
+<div class="section" id="id41">
+<h3>0.31（12/08/18）<a class="headerlink" href="#id41" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>編集中のノードの色が変更されるように</li>
+<li>深度テスト、深度書き込みの設定追加</li>
+<li>単一拡大、単一拡大イージング、任意軸回転、任意軸回転イージングの追加</li>
+<li>描画速度の最適化</li>
+</ul>
+</div>
+<div class="section" id="id42">
+<h3>0.30.1（12/08/04）<a class="headerlink" href="#id42" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>録画時に不正終了する不具合の修正</li>
+<li>一部の値が初期化されておらず、動作が不安定になってしまう不具合の修正</li>
+<li>寿命により削除をチェックしていない時、寿命を過ぎると子が生成されない不具合の修正</li>
+<li>標準形式による出力の際、拡大がおかしかった不具合の修正</li>
+<li>減算合成の不具合の修正</li>
+<li>BaseMatrix機能が動作しない不具合の修正</li>
+<li>GUIの改善</li>
+</ul>
+</div>
+<div class="section" id="id43">
+<h3>0.30（12/07/10）<a class="headerlink" href="#id43" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>HSV色空間への対応</li>
+<li>マルチスレッドへの対応(UpdateとDrawを別スレッドで実行可能)</li>
+<li>ツールのGUI改善(高速化、ホイールで値の変更機能追加)</li>
+<li>オプションパネルの追加(ツールのウインドウのメニューから表示可能、グリッドのサイズ等を変更可)</li>
+<li>可変FPSに対応(Updateに60fpsを基準として、進んだフレーム数を指定可能)</li>
+<li>様々なバグフィクス</li>
+</ul>
+</div>
+<div class="section" id="id44">
+<h3>0.20（12/06/16）<a class="headerlink" href="#id44" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>UV機能の追加</li>
+<li>色のフェードイン・フェードアウトの追加</li>
+<li>描画の一部項目を描画共通に移動</li>
+<li>UVの改良</li>
+<li>最適化</li>
+<li>様々なバグフィクス</li>
+</ul>
+</div>
+<div class="section" id="id45">
+<h3>0.18（11/11/27）<a class="headerlink" href="#id45" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>音機能の追加</li>
+<li>レンダリング方法にリングの追加</li>
+<li>Z軸回転ビルボードの計算方法の変更</li>
+<li>**への影響に、なし(Root依存)を追加</li>
+<li>最適化</li>
+<li>様々なバグフィクス</li>
+</ul>
+</div>
+<div class="section" id="id46">
+<h3>0.17（11/11/05）<a class="headerlink" href="#id46" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>Effekseerのツールのコマンドライン上での機能の追加</li>
+<li>GUIの配置を変更</li>
+<li>::Effekseer::Manager::Drawの引数を不要に変更</li>
+<li>様々なバグフィクス</li>
+</ul>
+</div>
+<div class="section" id="id47">
+<h3>0.16（11/10/22）<a class="headerlink" href="#id47" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>様々な更新</li>
+<li>β版公開</li>
+</ul>
+</div>
+<div class="section" id="id48">
+<h3>0.15（11/06/11）<a class="headerlink" href="#id48" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ランタイムにインスタンス破棄時のコールバック機能追加</li>
+<li>ツールにコマンドラインによる出力追加</li>
+<li>Z軸回転ビルボードの追加</li>
+</ul>
+</div>
+<div class="section" id="id49">
+<h3>0.14（11/03/31）<a class="headerlink" href="#id49" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>大量のバグ修正</li>
+</ul>
+</div>
+<div class="section" id="id50">
+<h3>0.13（11/03/28）<a class="headerlink" href="#id50" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>ストライプ描画追加</li>
+</ul>
+</div>
+<div class="section" id="id51">
+<h3>0.12（11/03/22）<a class="headerlink" href="#id51" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>バグ修正</li>
+<li>スプライトに頂点色及び頂点位置パラメータを追加</li>
+</ul>
+</div>
+<div class="section" id="id52">
+<h3>0.11（11/03/21）<a class="headerlink" href="#id52" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>内部コード整理</li>
+<li>録画機能拡張（Ortho表示拡大率、透過するかどうか？設定追加）</li>
+</ul>
+</div>
+<div class="section" id="id53">
+<h3>0.10（11/03/20）<a class="headerlink" href="#id53" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>とりあえず使用可能</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tips.html" class="btn btn-neutral float-right" title="TIPS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Top" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Effekseer
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
