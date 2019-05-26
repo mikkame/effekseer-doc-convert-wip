@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/ToolTutorial/13.md:1
+msgid "No13. 背景を歪ませよう！"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:5
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:7
+msgid ""
+"本章では、Effekseerで背景を歪ませる方法について説明します。 最近のゲームでは、背景を歪ませられるエフェクトが存在します。 "
+"Effekseerでもパラメーターを設定することで、エフェクトで背景を歪ませれます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:41
+msgid "使い方"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:43
+msgid "背景を歪ませるためには、歪みのための画像が必要です。 画像には色情報ではなく、歪み方を描きます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:46
+msgid ""
+"歪み用の画像はほとんど法線画像と同じです。ただ、青色だけ扱いが異なります。 "
+"赤色は左右方向の歪みの強さを表します。127を中心として、0は左方向、255は右方向に歪ませます。 "
+"緑色は上下方向の歪みの強さを表します。127を中心として、0は上方向、255は下方向に歪ませます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:57
+msgid "effect1.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:59
+msgid "Texture/Distortion.pngを描画共通パネルから、予め用意されているDistortionノードの色画像に設定します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:61
+msgid ""
+"描画共通パネルから歪みにチェックを入れて有効にします。 "
+"背景が黒いままだと、わかりにくいのでオプションパネルから背景画像を設定するとわかりやすくなります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:71
+msgid "歪み強度"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:73
+msgid ""
+"描画共通パネルから歪み強度を変更すると、歪み方が変わります。 歪み強度が大きいほど、歪み方が強くなります。 "
+"歪み強度が0に近いほど、歪まなくなります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:102
+msgid "描画優先度"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:104
+msgid ""
+"基本的に歪みは背景を歪ませるのみで、自身のエフェクトは歪ませられません。 しかし、自身のエフェクトを歪ませたくなる場合があります。 "
+"そのようなときは深度パネルから描画優先度を変更します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:108
+msgid ""
+"描画優先度はノード間の描画の順番を決めます。普通は、ノードツリーで下のほうに配置されているノードほど、後に描画されますが、 "
+"描画優先度が異なる場合、描画優先度が大きいノードが後に描画されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:111
+msgid "この描画優先度が-1以下のノードは、描画優先度が0以上の歪みが設定されているノードに歪ませられます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:113
+msgid ""
+"Particleノードの描画優先度を変更しましょう。 "
+"描画優先度を変更すると、ParticleノードのパーティクルがDistortionノードに歪まされていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:141
+msgid "使用例"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:143
+msgid "歪みはリングやUVスクロールとも併用できます。 リングとUVスクロールを組み合わせると放射状の歪みを簡単に作成できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:146
+msgid ""
+"このエフェクトはリングとUVスクロールを組み合わせた例です。 パラメーターを調節したリングに左の画像を適用しました。 "
+"中央の画像が歪みなしで適用させた結果です。 右の映像がUVスクロールをしつつ歪みを使用したエフェクトです。 "
+"白いパーティクルも全方向に散らばるようにしました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:187
+msgid "注意"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:189
+msgid "他のゲームエンジンで再生した場合は見た目が変わることがあります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:191
+msgid "最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:197
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/13.md:199
+msgid "本章では、歪みについて説明しました。 上手く歪みを指定すると見栄えが良くなります。 ぜひ使ってみましょう。"
+msgstr ""
+

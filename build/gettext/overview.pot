@@ -1,0 +1,1071 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/overview.md:1
+msgid "概要"
+msgstr ""
+
+#: ../../source/overview.md:3
+msgid "動作環境、必要ランタイム等"
+msgstr ""
+
+#: ../../source/overview.md:4
+msgid "編集ツール(Windows)"
+msgstr ""
+
+#: ../../source/overview.md:5
+msgid "Windows7 SP1以降のPC もし起動しない場合は下記のリンクからD3DCompiler_47.dllをインストールしてください。 D3DCompiler_47.dll"
+msgstr ""
+
+#: ../../source/overview.md:9
+msgid "編集ツール(macOS)"
+msgstr ""
+
+#: ../../source/overview.md:10
+msgid "macOS Sierra以降のPC もし起動しない場合は下記のリンクからmonoをインストールしてください。 mono"
+msgstr ""
+
+#: ../../source/overview.md:13
+msgid "ランタイム"
+msgstr ""
+
+#: ../../source/overview.md:15
+msgid "DirectX9(ShaderModel2.0以上)"
+msgstr ""
+
+#: ../../source/overview.md:16
+msgid "DirectX11(ShaderModel2.0以上)"
+msgstr ""
+
+#: ../../source/overview.md:17
+msgid "OpenGL 4.1以上"
+msgstr ""
+
+#: ../../source/overview.md:18
+msgid "OpenGL ES2.0以上"
+msgstr ""
+
+#: ../../source/overview.md:19
+msgid "インストール、アンインストール"
+msgstr ""
+
+#: ../../source/overview.md:21
+msgid "編集ツールは「Tool/」に存在します。レジストリ等の操作は一切しておりません。直接起動するか任意のディレクトリにコピーしてください。 アンインストールする場合はディレクトリごと削除してください。"
+msgstr ""
+
+#: ../../source/overview.md:24
+msgid "ゲーム中でエフェクトを再生する場合はランタイム、Unity、DXライブラリといった別途パッケージをダウンロードするようお願いします。"
+msgstr ""
+
+#: ../../source/overview.md:26
+msgid "連番画像等の画像としてエフェクトを再生する場合は、 録画 を参照してください。"
+msgstr ""
+
+#: ../../source/overview.md:29
+msgid "ライセンス"
+msgstr ""
+
+#: ../../source/overview.md:31
+msgid "ランタイムのライセンスはMITライセンスとなっております。 また、 DirectX Tool Kit を使用しております。"
+msgstr ""
+
+#: ../../source/overview.md:36
+msgid "テクスチャ及びエフェクトのデータはCC-0です。ご自由にお使いください。"
+msgstr ""
+
+#: ../../source/overview.md:37
+msgid "免責事項"
+msgstr ""
+
+#: ../../source/overview.md:39
+msgid "本ソフトウェア及びランタイムを使用した際のトラブル等には一切責任を負いかねます。"
+msgstr ""
+
+#: ../../source/overview.md:40
+msgid "連絡先"
+msgstr ""
+
+#: ../../source/overview.md:42
+msgid "effekseer(at)gmail.com"
+msgstr ""
+
+#: ../../source/overview.md:43
+msgid "開発者"
+msgstr ""
+
+#: ../../source/overview.md:44
+msgid "プログラム"
+msgstr ""
+
+#: ../../source/overview.md:46
+#: ../../source/overview.md:63
+msgid "S.Sawada"
+msgstr ""
+
+#: ../../source/overview.md:47
+msgid "うえした"
+msgstr ""
+
+#: ../../source/overview.md:48
+msgid "らいどっと"
+msgstr ""
+
+#: ../../source/overview.md:49
+msgid "Masa"
+msgstr ""
+
+#: ../../source/overview.md:50
+msgid "いも"
+msgstr ""
+
+#: ../../source/overview.md:51
+#: ../../source/overview.md:60
+msgid "kou_yeung"
+msgstr ""
+
+#: ../../source/overview.md:52
+msgid "lltcggie"
+msgstr ""
+
+#: ../../source/overview.md:53
+msgid "Javel"
+msgstr ""
+
+#: ../../source/overview.md:54
+msgid "kage3"
+msgstr ""
+
+#: ../../source/overview.md:55
+msgid "Tiffanyx"
+msgstr ""
+
+#: ../../source/overview.md:56
+msgid "翻訳"
+msgstr ""
+
+#: ../../source/overview.md:58
+#: ../../source/overview.md:71
+msgid "AndrewFM"
+msgstr ""
+
+#: ../../source/overview.md:59
+msgid "wisteria"
+msgstr ""
+
+#: ../../source/overview.md:61
+msgid "素材提供"
+msgstr ""
+
+#: ../../source/overview.md:64
+msgid "Agate"
+msgstr ""
+
+#: ../../source/overview.md:65
+msgid "project弾幕Girls"
+msgstr ""
+
+#: ../../source/overview.md:66
+msgid "BirdStrike"
+msgstr ""
+
+#: ../../source/overview.md:67
+msgid "Neetpia"
+msgstr ""
+
+#: ../../source/overview.md:68
+msgid "BrokenDesk"
+msgstr ""
+
+#: ../../source/overview.md:69
+msgid "日陰者ピエール"
+msgstr ""
+
+#: ../../source/overview.md:70
+msgid "鈴木克史"
+msgstr ""
+
+#: ../../source/overview.md:72
+msgid "tktk"
+msgstr ""
+
+#: ../../source/overview.md:73
+msgid "著作権表示"
+msgstr ""
+
+#: ../../source/overview.md:74
+msgid "ライセンス(ランタイム)"
+msgstr ""
+
+#: ../../source/overview.md:98
+msgid "ライセンス(ツール)"
+msgstr ""
+
+#: ../../source/overview.md:220
+msgid "更新履歴"
+msgstr ""
+
+#: ../../source/overview.md:221
+msgid "1.43c（19/05/13）"
+msgstr ""
+
+#: ../../source/overview.md:222
+msgid "ユーザー名が日本語の時にモデルファイルの読み込みに失敗する不具合の修正(Win)"
+msgstr ""
+
+#: ../../source/overview.md:223
+msgid "1.43b（19/03/12）"
+msgstr ""
+
+#: ../../source/overview.md:224
+msgid "ファイルを開いた後に画面サイズを変えるとアイコンの画像が消える不具合の修正(Mac)"
+msgstr ""
+
+#: ../../source/overview.md:225
+msgid "1.43（19/03/02）"
+msgstr ""
+
+#: ../../source/overview.md:226
+msgid "0フレーム目に生成された軌跡とリボンの挙動がおかしい不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:227
+msgid "SSEのバッファオーバーランでクラッシュする不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:228
+msgid "色のイージングを指定したときにAndroidでクラッシュする不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:229
+msgid "沢山のネットワーク機能の不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:230
+msgid "1.42f（19/01/19）"
+msgstr ""
+
+#: ../../source/overview.md:231
+msgid "録画した画像のアスペクト比がおかしい不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:232
+msgid "1.42e（19/01/08）"
+msgstr ""
+
+#: ../../source/overview.md:233
+msgid "デバッグモードでビルドされていた不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:234
+msgid "1.42d（19/01/06）"
+msgstr ""
+
+#: ../../source/overview.md:235
+msgid "HSVカラーの編集の不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:236
+msgid "macOS 10.14 Mojave をサポート"
+msgstr ""
+
+#: ../../source/overview.md:237
+msgid "1.42c（18/10/14）"
+msgstr ""
+
+#: ../../source/overview.md:238
+msgid "Fカーブのキーが整数に合うように修正"
+msgstr ""
+
+#: ../../source/overview.md:239
+msgid "日本語が含まれるパスでアプリケーションを起動すると文字化けする不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:240
+msgid "閉じるボタンを複数回クリックすると複数ウインドウが表示される不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:241
+msgid "他のアプリケーションで開いているファイルに対して録画しようとすると落ちる不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:242
+msgid "Macでの録画の不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:243
+msgid "1.42b（18/09/25）"
+msgstr ""
+
+#: ../../source/overview.md:244
+msgid "不具合修正：コマンドラインに関する様々な不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:245
+msgid "1.42a（18/09/16）"
+msgstr ""
+
+#: ../../source/overview.md:246
+msgid "不具合修正：ピッチを変更すると落ちる不具合修正"
+msgstr ""
+
+#: ../../source/overview.md:247
+msgid "1.42（18/09/16）"
+msgstr ""
+
+#: ../../source/overview.md:248
+msgid "不具合修正：展開していないノードツリービューのノードを選択できない不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:249
+msgid "不具合修正：振る舞い、カリング、全体に関する様々な不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:250
+msgid "1.41（18/09/13）"
+msgstr ""
+
+#: ../../source/overview.md:251
+msgid "不具合修正：UIの表示が崩れる不具合の修正(Mac)"
+msgstr ""
+
+#: ../../source/overview.md:252
+msgid "不具合修正：ドックパネルの挙動がおかしい不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:253
+msgid "不具合修正：ノードの貼り付けで落ちる不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:254
+msgid "1.40（18/09/12）"
+msgstr ""
+
+#: ../../source/overview.md:255
+msgid "ツール：UIの一新"
+msgstr ""
+
+#: ../../source/overview.md:256
+msgid "ツール：FBXローダーの改良。アニメーションありFBXを読み込めるように"
+msgstr ""
+
+#: ../../source/overview.md:257
+msgid "ツール：深度に関するパラメーターの追加"
+msgstr ""
+
+#: ../../source/overview.md:258
+msgid "ツール：ランダムに関するパラメーターの追加"
+msgstr ""
+
+#: ../../source/overview.md:259
+msgid "ツール：軌跡とリボンをスムーズにするパラメーターの追加"
+msgstr ""
+
+#: ../../source/overview.md:260
+msgid "ツール：自己歪みの追加"
+msgstr ""
+
+#: ../../source/overview.md:261
+msgid "ランタイム：スマートフォン上のパフォーマンス改善"
+msgstr ""
+
+#: ../../source/overview.md:262
+msgid "ランタイム：全環境上でのパフォーマンス改善"
+msgstr ""
+
+#: ../../source/overview.md:263
+msgid "不具合修正：1フレーム、パーティクルの生成が遅れる不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:264
+msgid "1.32（17/11/21）"
+msgstr ""
+
+#: ../../source/overview.md:265
+msgid "不具合修正：FBXコンバーターの不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:266
+msgid "1.31（17/11/04）"
+msgstr ""
+
+#: ../../source/overview.md:267
+msgid "不具合修正：翻訳のミスを修正"
+msgstr ""
+
+#: ../../source/overview.md:268
+msgid "1.30（17/11/01）"
+msgstr ""
+
+#: ../../source/overview.md:269
+msgid "ツール：アイコンを追加"
+msgstr ""
+
+#: ../../source/overview.md:270
+msgid "ツール：ファイルビューアを追加"
+msgstr ""
+
+#: ../../source/overview.md:271
+msgid "ツール：FBX と mqo 読み込みを追加"
+msgstr ""
+
+#: ../../source/overview.md:272
+msgid "ツール：Fカーブエディタを改良"
+msgstr ""
+
+#: ../../source/overview.md:273
+msgid "ツール：UV Fカーブを追加"
+msgstr ""
+
+#: ../../source/overview.md:274
+msgid "ランタイム：軌跡に拡大率が適用されるように変更"
+msgstr ""
+
+#: ../../source/overview.md:275
+msgid "不具合修正：リボンと軌跡のUVがずれる不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:276
+msgid "不具合修正：リボンの歪みが適用されない不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:277
+msgid "不具合修正：関数名のスペルミスを修正(Destory -> Destroy)"
+msgstr ""
+
+#: ../../source/overview.md:278
+msgid "不具合修正：振る舞いがファイル読み込み時に初期化されない不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:279
+msgid "不具合修正：回転(軸)に関する不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:280
+msgid "不具合修正：歪み(モデル)に関する不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:281
+msgid "不具合修正：ノードのコピーに関する不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:282
+msgid "仕様変更：パーティクルが生成されてから0フレームで子のパーティクルを生成するように変更"
+msgstr ""
+
+#: ../../source/overview.md:283
+msgid "仕様変更：歪みのコールバックの戻り値をboolに変更"
+msgstr ""
+
+#: ../../source/overview.md:284
+msgid "仕様変更：ノードの最大個数を廃止"
+msgstr ""
+
+#: ../../source/overview.md:285
+msgid "仕様変更：生成位置の名称を生成方法に変更"
+msgstr ""
+
+#: ../../source/overview.md:286
+msgid "仕様変更：歪み方法。Effekseerのエフェクトが歪みにより歪まなくなりました。(1.4以降に自己歪みを追加する予定です。)"
+msgstr ""
+
+#: ../../source/overview.md:287
+msgid "1.22（16/08/21）"
+msgstr ""
+
+#: ../../source/overview.md:288
+msgid "ツール：リボンと軌跡がUVのスクロールに対応"
+msgstr ""
+
+#: ../../source/overview.md:289
+msgid "不具合修正：コピー貼り付けの誤動作を修正"
+msgstr ""
+
+#: ../../source/overview.md:290
+msgid "1.20（16/06/24）"
+msgstr ""
+
+#: ../../source/overview.md:291
+msgid "ツール：透明度の自動推定を実装"
+msgstr ""
+
+#: ../../source/overview.md:292
+msgid "ツール：動画出力機能を実装"
+msgstr ""
+
+#: ../../source/overview.md:293
+msgid "ツール：ショートカットを変更"
+msgstr ""
+
+#: ../../source/overview.md:294
+msgid "不具合修正：歪みの描画がおかしくなる不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:295
+msgid "1.10（16/02/28）"
+msgstr ""
+
+#: ../../source/overview.md:296
+msgid "ツール：カラースペースの変更を実装"
+msgstr ""
+
+#: ../../source/overview.md:297
+msgid "ツール：英語版を実装"
+msgstr ""
+
+#: ../../source/overview.md:298
+msgid "不具合修正：メモリリークを修正"
+msgstr ""
+
+#: ../../source/overview.md:299
+msgid "不具合修正：回転と移動の値が異なっていた不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:300
+msgid "1.01（15/08/26）"
+msgstr ""
+
+#: ../../source/overview.md:301
+msgid "ツール：ターゲット位置の変更が反映されるように修正"
+msgstr ""
+
+#: ../../source/overview.md:302
+msgid "不具合修正：引力処理でターゲット位置に原点を指定すると描画されない問題を修正"
+msgstr ""
+
+#: ../../source/overview.md:303
+msgid "不具合修正：外輪・内輪の設定を、\"位置・速度・加速度\"としたとき、位置のyの値が入力した値によらず、位置のxの値と同じになる不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:304
+msgid "不具合修正：生成位置の円の設定で、分割数n、位置種類をランダムにした場合、n番目の位置にノードが生成されない不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:305
+msgid "不具合修正：StopRootを使用した後、エフェクトを大量に表示すると表示がおかしくなる不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:306
+msgid "1.00（15/07/15）"
+msgstr ""
+
+#: ../../source/overview.md:307
+msgid "ツール：プロジェクトのファイルサイズを削減"
+msgstr ""
+
+#: ../../source/overview.md:308
+msgid "ツール：録画機能を一新"
+msgstr ""
+
+#: ../../source/overview.md:309
+msgid "ランタイム：カリング機能の追加"
+msgstr ""
+
+#: ../../source/overview.md:310
+msgid "ランタイム：引力機能の追加"
+msgstr ""
+
+#: ../../source/overview.md:311
+msgid "ランタイム：高速化"
+msgstr ""
+
+#: ../../source/overview.md:312
+msgid "ランタイム：生成時間のランダムの実装(1つのノードの子ノードの最大個数が16に変更)"
+msgstr ""
+
+#: ../../source/overview.md:313
+msgid "ランタイム：libpng16.16.dylibが不要になるように変更"
+msgstr ""
+
+#: ../../source/overview.md:314
+msgid "不具合修正：ウインドウ位置の初期化でウインドウ位置が正しく初期化されない"
+msgstr ""
+
+#: ../../source/overview.md:315
+msgid "不具合修正：ツール複数起動時、ツール間のコピーでテクスチャのパスがおかしくなる"
+msgstr ""
+
+#: ../../source/overview.md:316
+msgid "不具合修正：最小化して終了した時、次起動するとエラー"
+msgstr ""
+
+#: ../../source/overview.md:317
+msgid "不具合修正：ステート復帰が不完全"
+msgstr ""
+
+#: ../../source/overview.md:318
+msgid "不具合修正：メモリリーク"
+msgstr ""
+
+#: ../../source/overview.md:319
+msgid "0.610（14/07/16）"
+msgstr ""
+
+#: ../../source/overview.md:320
+msgid "ランタイム：D3DX及びDirectXTexを不必要になるよう変更"
+msgstr ""
+
+#: ../../source/overview.md:321
+msgid "0.602（14/06/27）"
+msgstr ""
+
+#: ../../source/overview.md:322
+msgid "バグ：ランタイムからエフェクトの回転が適用されない不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:323
+msgid "バグ：リングが左手座標系に対応していなかった不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:324
+msgid "バグ：リロード時、マテリアルへのパスが適用されなかった不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:325
+msgid "バグ：Matrix43の乗算が特定条件下で失敗する不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:326
+msgid "バグ：オーディオデバイスが存在しない時ツールがクラッシュする不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:327
+msgid "0.601（14/03/22）"
+msgstr ""
+
+#: ../../source/overview.md:328
+msgid "バグ：一部のエフェクトファイルを読み込めなかった不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:329
+msgid "0.60（14/03/01）"
+msgstr ""
+
+#: ../../source/overview.md:330
+msgid "ランタイム：生成位置に円を追加"
+msgstr ""
+
+#: ../../source/overview.md:331
+msgid "ランタイム：複数のManagerで一部設定を共有できるように"
+msgstr ""
+
+#: ../../source/overview.md:332
+msgid "ランタイム：Windows版OpenGL描画でGLEWが不必要に"
+msgstr ""
+
+#: ../../source/overview.md:333
+msgid "ランタイム：Rendererのネームスペースの変更(EffekseerRenderer→EffekseerRenderer(DX9/DX11/GL))"
+msgstr ""
+
+#: ../../source/overview.md:334
+msgid "ランタイム：UnityPluginバージョンアップ"
+msgstr ""
+
+#: ../../source/overview.md:335
+msgid "バグ：OpenGL(Linux)でモデルが描画できなかった不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:336
+msgid "バグ：日本語のテクスチャファイルを読み込めなかった不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:337
+msgid "0.54（14/01/03）"
+msgstr ""
+
+#: ../../source/overview.md:338
+msgid "バグ：DXライブラリと組み合わせた際に表示がおかしくなる不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:339
+msgid "バグ：DirectXとOpenGLの互換性を向上(アルファブレンド)"
+msgstr ""
+
+#: ../../source/overview.md:340
+msgid "ランタイム：SetRestorationOfStatesFlagを追加"
+msgstr ""
+
+#: ../../source/overview.md:341
+msgid "0.53（13/11/23）"
+msgstr ""
+
+#: ../../source/overview.md:342
+msgid "バグ：オプション設定ファイルの保存先が間違っていた不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:343
+msgid "サンプル：Neetpiaより提供のエフェクトを追加"
+msgstr ""
+
+#: ../../source/overview.md:344
+msgid "ヘルプ：組込み関数の一覧を追加"
+msgstr ""
+
+#: ../../source/overview.md:345
+msgid "0.50.2（13/11/09）"
+msgstr ""
+
+#: ../../source/overview.md:346
+msgid "ツール：オプションの保存方法を変更"
+msgstr ""
+
+#: ../../source/overview.md:347
+msgid "0.50.1（13/11/04）"
+msgstr ""
+
+#: ../../source/overview.md:348
+msgid "ランタイム：Unityを最新バージョンに対応"
+msgstr ""
+
+#: ../../source/overview.md:349
+msgid "ランタイム：DirectX最新バージョンに対応"
+msgstr ""
+
+#: ../../source/overview.md:350
+msgid "ランタイム：UpdateHandleを追加"
+msgstr ""
+
+#: ../../source/overview.md:351
+msgid "ランタイム：cmakeに対応"
+msgstr ""
+
+#: ../../source/overview.md:352
+msgid "サンプル：project弾幕Girlsより提供のエフェクトを追加"
+msgstr ""
+
+#: ../../source/overview.md:353
+msgid "0.50（13/09/23）"
+msgstr ""
+
+#: ../../source/overview.md:354
+msgid "両方：軌跡レンダラーの追加"
+msgstr ""
+
+#: ../../source/overview.md:355
+msgid "ツール：エフェクトの振る舞い(編集中にツール上で大量に表示等を再現)の追加"
+msgstr ""
+
+#: ../../source/overview.md:356
+msgid "ツール：背景画像の切り替え追加"
+msgstr ""
+
+#: ../../source/overview.md:357
+msgid "ツール：マウスでの回転方向の向きを変更(オプションパネルで変更可能)"
+msgstr ""
+
+#: ../../source/overview.md:358
+msgid "ランタイム：DirectX11対応"
+msgstr ""
+
+#: ../../source/overview.md:359
+msgid "ランタイム：読み込み時に拡大率を設定できるよう引数を追加"
+msgstr ""
+
+#: ../../source/overview.md:360
+msgid "ランタイム：デバイスロスト対応を強化(DXライブラリでのフルスクリーン切り替えに対応)"
+msgstr ""
+
+#: ../../source/overview.md:361
+msgid "両方：バグ修正"
+msgstr ""
+
+#: ../../source/overview.md:362
+msgid "0.40（13/04/20）"
+msgstr ""
+
+#: ../../source/overview.md:364
+msgid "3Dオブジェクトの表示機能"
+msgstr ""
+
+#: ../../source/overview.md:365
+msgid "Fカーブ編集の追加"
+msgstr ""
+
+#: ../../source/overview.md:366
+msgid "モデルエミッター"
+msgstr ""
+
+#: ../../source/overview.md:367
+msgid "アプリケーション起動中のツールからのTCP/IP経由による動的エフェクト書き換え"
+msgstr ""
+
+#: ../../source/overview.md:368
+msgid "グリッドの色変更機能"
+msgstr ""
+
+#: ../../source/overview.md:369
+msgid "ツールのGUI改善(ノードツリー)"
+msgstr ""
+
+#: ../../source/overview.md:370
+msgid "0.32（13/01/05）"
+msgstr ""
+
+#: ../../source/overview.md:372
+msgid "エフェクト作成時に素材ロードの基準パスを指定できるように変更"
+msgstr ""
+
+#: ../../source/overview.md:373
+msgid "更新・描画の高速化"
+msgstr ""
+
+#: ../../source/overview.md:374
+msgid "Unityプラグイン対応"
+msgstr ""
+
+#: ../../source/overview.md:375
+#: ../../source/overview.md:378
+msgid "様々な不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:376
+msgid "0.31.2（12/11/03）"
+msgstr ""
+
+#: ../../source/overview.md:379
+msgid "0.31.1（12/08/19）"
+msgstr ""
+
+#: ../../source/overview.md:381
+msgid "深度テストと深度書き込みのフラグが入れ替わっていた不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:382
+msgid "リボンの頂点ロックの数が正しくない不具合を修正"
+msgstr ""
+
+#: ../../source/overview.md:383
+#: ../../source/overview.md:389
+msgid "描画速度の最適化"
+msgstr ""
+
+#: ../../source/overview.md:384
+msgid "0.31（12/08/18）"
+msgstr ""
+
+#: ../../source/overview.md:386
+msgid "編集中のノードの色が変更されるように"
+msgstr ""
+
+#: ../../source/overview.md:387
+msgid "深度テスト、深度書き込みの設定追加"
+msgstr ""
+
+#: ../../source/overview.md:388
+msgid "単一拡大、単一拡大イージング、任意軸回転、任意軸回転イージングの追加"
+msgstr ""
+
+#: ../../source/overview.md:390
+msgid "0.30.1（12/08/04）"
+msgstr ""
+
+#: ../../source/overview.md:392
+msgid "録画時に不正終了する不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:393
+msgid "一部の値が初期化されておらず、動作が不安定になってしまう不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:394
+msgid "寿命により削除をチェックしていない時、寿命を過ぎると子が生成されない不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:395
+msgid "標準形式による出力の際、拡大がおかしかった不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:396
+msgid "減算合成の不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:397
+msgid "BaseMatrix機能が動作しない不具合の修正"
+msgstr ""
+
+#: ../../source/overview.md:398
+msgid "GUIの改善"
+msgstr ""
+
+#: ../../source/overview.md:399
+msgid "0.30（12/07/10）"
+msgstr ""
+
+#: ../../source/overview.md:401
+msgid "HSV色空間への対応"
+msgstr ""
+
+#: ../../source/overview.md:402
+msgid "マルチスレッドへの対応(UpdateとDrawを別スレッドで実行可能)"
+msgstr ""
+
+#: ../../source/overview.md:403
+msgid "ツールのGUI改善(高速化、ホイールで値の変更機能追加)"
+msgstr ""
+
+#: ../../source/overview.md:404
+msgid "オプションパネルの追加(ツールのウインドウのメニューから表示可能、グリッドのサイズ等を変更可)"
+msgstr ""
+
+#: ../../source/overview.md:405
+msgid "可変FPSに対応(Updateに60fpsを基準として、進んだフレーム数を指定可能)"
+msgstr ""
+
+#: ../../source/overview.md:406
+#: ../../source/overview.md:414
+#: ../../source/overview.md:422
+#: ../../source/overview.md:428
+msgid "様々なバグフィクス"
+msgstr ""
+
+#: ../../source/overview.md:407
+msgid "0.20（12/06/16）"
+msgstr ""
+
+#: ../../source/overview.md:409
+msgid "UV機能の追加"
+msgstr ""
+
+#: ../../source/overview.md:410
+msgid "色のフェードイン・フェードアウトの追加"
+msgstr ""
+
+#: ../../source/overview.md:411
+msgid "描画の一部項目を描画共通に移動"
+msgstr ""
+
+#: ../../source/overview.md:412
+msgid "UVの改良"
+msgstr ""
+
+#: ../../source/overview.md:413
+#: ../../source/overview.md:421
+msgid "最適化"
+msgstr ""
+
+#: ../../source/overview.md:415
+msgid "0.18（11/11/27）"
+msgstr ""
+
+#: ../../source/overview.md:417
+msgid "音機能の追加"
+msgstr ""
+
+#: ../../source/overview.md:418
+msgid "レンダリング方法にリングの追加"
+msgstr ""
+
+#: ../../source/overview.md:419
+msgid "Z軸回転ビルボードの計算方法の変更"
+msgstr ""
+
+#: ../../source/overview.md:420
+msgid "**への影響に、なし(Root依存)を追加"
+msgstr ""
+
+#: ../../source/overview.md:423
+msgid "0.17（11/11/05）"
+msgstr ""
+
+#: ../../source/overview.md:425
+msgid "Effekseerのツールのコマンドライン上での機能の追加"
+msgstr ""
+
+#: ../../source/overview.md:426
+msgid "GUIの配置を変更"
+msgstr ""
+
+#: ../../source/overview.md:427
+msgid "::Effekseer::Manager::Drawの引数を不要に変更"
+msgstr ""
+
+#: ../../source/overview.md:429
+msgid "0.16（11/10/22）"
+msgstr ""
+
+#: ../../source/overview.md:431
+msgid "様々な更新"
+msgstr ""
+
+#: ../../source/overview.md:432
+msgid "β版公開"
+msgstr ""
+
+#: ../../source/overview.md:433
+msgid "0.15（11/06/11）"
+msgstr ""
+
+#: ../../source/overview.md:435
+msgid "ランタイムにインスタンス破棄時のコールバック機能追加"
+msgstr ""
+
+#: ../../source/overview.md:436
+msgid "ツールにコマンドラインによる出力追加"
+msgstr ""
+
+#: ../../source/overview.md:437
+msgid "Z軸回転ビルボードの追加"
+msgstr ""
+
+#: ../../source/overview.md:438
+msgid "0.14（11/03/31）"
+msgstr ""
+
+#: ../../source/overview.md:440
+msgid "大量のバグ修正"
+msgstr ""
+
+#: ../../source/overview.md:441
+msgid "0.13（11/03/28）"
+msgstr ""
+
+#: ../../source/overview.md:443
+msgid "ストライプ描画追加"
+msgstr ""
+
+#: ../../source/overview.md:444
+msgid "0.12（11/03/22）"
+msgstr ""
+
+#: ../../source/overview.md:446
+msgid "バグ修正"
+msgstr ""
+
+#: ../../source/overview.md:447
+msgid "スプライトに頂点色及び頂点位置パラメータを追加"
+msgstr ""
+
+#: ../../source/overview.md:448
+msgid "0.11（11/03/21）"
+msgstr ""
+
+#: ../../source/overview.md:450
+msgid "内部コード整理"
+msgstr ""
+
+#: ../../source/overview.md:451
+msgid "録画機能拡張（Ortho表示拡大率、透過するかどうか？設定追加）"
+msgstr ""
+
+#: ../../source/overview.md:452
+msgid "0.10（11/03/20）"
+msgstr ""
+
+#: ../../source/overview.md:454
+msgid "とりあえず使用可能"
+msgstr ""
+

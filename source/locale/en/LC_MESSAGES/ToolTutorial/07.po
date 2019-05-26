@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/ToolTutorial/07.md:1
+msgid "No07. 親子関係で複雑な動きしよう！"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:5
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:7
+msgid "本章では、ノードの親子関係を用いて複雑なエフェクトを作成します。 若干、本章は難しいです。しっかり理解しましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:35
+msgid "親子関係"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:37
+msgid "Effekseerでは、ノードが親子関係を持ちます。 親子関係があると、親のノードが子のノードに様々な影響を与えれます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:40
+msgid ""
+"例えば、ノードAとノードBがあるとします。ノードAはノードBの親です。 "
+"この時、ノードBから生成されるパーティクルはノードAのパーティクルを中心に、生成、移動、回転、拡大します。 "
+"言葉ではわかりにくいので映像を表示します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:44
+msgid ""
+"ノードAのパーティクルは赤色、ノードBのパーティクルは緑色です。 "
+"移動・回転しているパーティクルAを中心にパーティクルBが回転していることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:54
+msgid ""
+"親子関係を利用することで、複雑なエフェクトを作成できます。 例えば、親のパーティクルから子のパーティクルを発するエフェクトです。 "
+"サンプルでは親の細長いパーティクルは移動しつつ、親のパーティクルの先端から子の雪のパーティクルを大量に生成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:70
+msgid "竜巻エフェクト"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:72
+msgid "親子関係を利用して、竜巻エフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:74
+msgid "effect1.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:76
+msgid "このエフェクトは、親の回転を制御するパーティクルと画像を描画する子のパーティクルで構成されています。 親ノード、子ノードの順番で作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:79 ../../source/ToolTutorial/07.md:223
+msgid "親ノード"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:81
+msgid "親ノードは回転するのみです。パラメーターも設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:90 ../../source/ToolTutorial/07.md:228
+msgid "子ノード"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:92
+msgid "子ノードを追加します。 親ノードを左クリックして選択します。 そして、右クリックして、メニュー表示します。 メニューから、ノードの追加を選択します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:104
+msgid "追加されたノードを左クリックして選択します。 子のノードには、パーティクルが上方向に移動するようにパラメーターを入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:134
+msgid "子のパーティクルが親のパーティクルの回転に合わせて動いていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:143
+msgid "さらに、見栄えをよくするために下記のパラメーターを入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:202
+msgid "エフェクトの見栄えが良くなりました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:211
+msgid "流星エフェクト"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:213
+msgid "親子関係を利用して流星エフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:215
+msgid "effect2.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:217
+msgid ""
+"Effekseerでは、子のパーティクルが生成された瞬間に親子関係を切ることができます。 "
+"どういうことかというと、子のパーティクルが生成された時の親の姿勢を中心に子のパーティクルが生成されます。 "
+"それ以降、親のパーティクルが移動したり、回転したりしても、子に影響与えることはありません。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:221
+msgid "この機能を利用して流星エフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:225
+msgid "親ノードは移動するのみです。 パラメーターは設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:230
+msgid "パーティクルを周囲にばらまきます。パラメーターは設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:232
+msgid ""
+"ただ、位置への影響、角度への影響、拡大への影響のパラメーターが「常時」になってます。 "
+"「常時」だと、子のパーティクルが生成された後も、子のパーティクルは親のパーティクルの影響を受け続けます。 "
+"つまり、親の移動に合わせて子も移動しています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:243
+msgid ""
+"「共通」ウインドウから、位置への影響、角度への影響、拡大への影響のパラメーターが「生成時のみ」に変更します。 "
+"そうすると、親のパーティクルが移動しても子のパーティクルは親に合わせて移動しないことがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:253
+msgid "最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:259
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/07.md:261
+msgid "本章では、親子関係を使用して複雑なエフェクトを作成しました。 次章では、生成方法を変更して、パーティクルを円形や直線状に配置したりします。"
+msgstr ""
+

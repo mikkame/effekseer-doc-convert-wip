@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/faq.md:1
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../../source/faq.md:3
+msgid "全般"
+msgstr "General"
+
+#: ../../source/faq.md:5
+msgid "Effekseerの読み方は？"
+msgstr "How do I pronounce Effekseer?"
+
+#: ../../source/faq.md:7
+msgid "「えふぇくしあー」です。"
+msgstr "It is \"Effec\"+\"seer\"."
+
+#: ../../source/faq.md:9
+msgid "編集ツール"
+msgstr "Editing Tool"
+
+#: ../../source/faq.md:11
+msgid "値を変更したのに適用されない。"
+msgstr "My changes to parameters are not getting applied."
+
+#: ../../source/faq.md:12
+msgid "値を変更した場合、最後にEnterを押すか違う欄にフォーカスを移動してください。そうすることにより適用されます。"
+msgstr "If you change a parameter's value, please press enter afterwards, or move the focus to a different field. The change will be applied by doing so."
+
+#: ../../source/faq.md:14
+msgid "スプライトに回転が適用されない。"
+msgstr "My rotation settings are not applied to the sprite."
+
+#: ../../source/faq.md:15
+msgid "描画方法が「スプライト」の場合、「配置方法」がビルボードの場合は回転は適用されません。回転を適用し描画した場合、他を選択して下さい。"
+msgstr "If the drawing method is \"Sprite\", rotation will be ignored when the render configuration is set to \"Billboard\" (since Billboard locks the sprite's rotation to make it always face the camera). To apply rotation to a sprite render, please choose any of the other render configuration options."
+
+#: ../../source/faq.md:17
+msgid "どうやって録画するの？"
+msgstr "How do I record?"
+
+#: ../../source/faq.md:18
+msgid "編集ツールから「ウインドウ->録画」を選択すると録画画面が表示されます。録画画面から録画を行えます。 また、「ウインドウ->視点操作」を選択すると視点操作画面が表示されます。視点操作画面では、数値で視点を操作することができます。"
+msgstr "When you select \"Window -> Recording\" from the editing tool, the recording screen will be displayed. By pressing Record on the recording screen, the recording result is output. If you select \"Window -> Viewpoint Operation\", the viewpoint operation screen will be displayed. On the viewpoint operation screen, you can manipulate the viewpoint numerically."
+
+#: ../../source/faq.md:21
+msgid "組み込み"
+msgstr "Embedding Effects"
+
+#: ../../source/faq.md:23
+msgid "どうやって他のアプリケーションで使用するの？"
+msgstr "How can I use it with other applications?"
+
+#: ../../source/faq.md:24
+msgid "公式サイトから他のアプリケーション向けのプラグインやライブラリをダウンロードしてください。 それらを使用することにより他のアプリケーションでもエフェクトを再生できるようになります。"
+msgstr "Please download plugins and libraries for other applications from the official site. By using them you will be able to play effects in other applications."
+
+#: ../../source/faq.md:27
+msgid "どうやってランタイムで再生するための形式にするの？"
+msgstr "How do you format it for playback at runtime?"
+
+#: ../../source/faq.md:28
+msgid "編集ツールから「ファイル->出力->Effekseerゲーム出力形式」を選択し、出力します。"
+msgstr "Select \"File -> Output -> Effekseer Game Output Format\" from the editing tool and output it."
+
+#: ../../source/faq.md:30
+msgid "他"
+msgstr "Others"
+
+#: ../../source/faq.md:32
+msgid "○○という機能が欲しい。"
+msgstr "I want the function of ...."
+
+#: ../../source/faq.md:33
+msgid "可能な限りは考慮します。一番早いのは、コミッターになるか、自分で別プロジェクトとしてこのツールを改造することです。"
+msgstr "We will consider as much as possible. The earliest thing is to become a committer or to modify this tool as a separate project by yourself."
+

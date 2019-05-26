@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/tips.md:1
+msgid "TIPS"
+msgstr ""
+
+#: ../../source/tips.md:3
+msgid "目的ごとのパラメーター設定方法や知っていると便利な操作方法を説明しています。 チュートリアルに目を通した前提で説明しているので、先にチュートリアルを読むことを勧めます。 項目によっては他のページにリンクすることもあります。"
+msgstr ""
+
+#: ../../source/tips.md:5
+msgid "パーティクルの寿命を無限にする。"
+msgstr ""
+
+#: ../../source/tips.md:7
+msgid "エフェクトの種類によってはエフェクトを生成してからゲーム終了時まで、エフェクトが存在して欲しい場合があります。 それを実現するには複数の方法があります。 ただし、いずれの方法にしても、エフェクトを手動で停止しない限り、エフェクトが消えなくなるので注意してください。"
+msgstr ""
+
+#: ../../source/tips.md:9
+msgid "寿命"
+msgstr ""
+
+#: ../../source/tips.md:11
+msgid "寿命をゲームのプレイ時間より長くすると、ゲームが終わるまでパーティクルが残り続けます。"
+msgstr ""
+
+#: ../../source/tips.md:13
+msgid "寿命により削除"
+msgstr ""
+
+#: ../../source/tips.md:15
+msgid "共通ウインドウの「寿命により削除」のチェックを外すことです。"
+msgstr ""
+
+#: ../../source/tips.md:17
+msgid "生成数"
+msgstr ""
+
+#: ../../source/tips.md:19
+msgid "生成数を無限にすると、パーティクル１つ１つは消えたとしても、エフェクト全体は存在し続けます。"
+msgstr ""
+
+#: ../../source/tips.md:21
+msgid "複数のパーティクルを0フレーム目に同時に生成する。"
+msgstr ""
+
+#: ../../source/tips.md:23
+msgid "生成時間を0.0001といった非常に小さい値にします。 加えて、生成開始時間をマイナスにします。 生成時間を1より小さくすると、1フレームの間に複数のパーティクルが生成されます。 生成開始時間がマイナスの時間の場合、0フレームにパーティクルが生成されます。 この2つにより、0フレーム目に複数のパーティクルが生成されるようになります。"
+msgstr ""
+
+#: ../../source/tips.md:26
+msgid "放射状にパーティクルを配置する"
+msgstr ""
+
+#: ../../source/tips.md:28
+msgid "中央から外側の方向にパーティクルが移動するように放射状にパーティクルを配置します。"
+msgstr ""
+
+#: ../../source/tips.md:30
+msgid "生成方法"
+msgstr ""
+
+#: ../../source/tips.md:32
+msgid "チュートリアルの8章を参照お願いします。"
+msgstr ""
+
+#: ../../source/tips.md:34
+msgid "8章"
+msgstr ""
+
+#: ../../source/tips.md:36
+msgid "親子関係"
+msgstr ""
+
+#: ../../source/tips.md:38
+msgid "親のパーティクルが360度方向にランダムに回転するように設定し、 子を中心から離れた位置に配置すると放射状にパーティクルが配置されます。"
+msgstr ""
+
+#: ../../source/tips.md:40
+msgid "三日月型のパーティクルを生成する"
+msgstr ""
+
+#: ../../source/tips.md:42
+msgid "完全な輪でなく、三日月型のパーティクルを生成します。"
+msgstr ""
+
+#: ../../source/tips.md:44
+msgid "リング"
+msgstr ""
+
+#: ../../source/tips.md:46
+msgid "一部が切れている画像をリングに設定します。そうすると三日月型のパーティクルを生成できます。 これらをランダムな軸で回転させるだけで見栄えのいいエフェクトになります。"
+msgstr ""
+
+#: ../../source/tips.md:63
+msgid "ゲーム中にエフェクトを再生するときにエフェクトがキャラクターにめり込まないようにする"
+msgstr ""
+
+#: ../../source/tips.md:80
+msgid "ヒットエフェクトなど、キャラクターと同じ位置にエフェクトを配置することがあります。 エフェクトとキャラクターを同じ位置に配置するとキャラクターがエフェクトにめり込みます。 ゲームのプログラムでエフェクトの位置をずらせば、めり込まずに済みますが、この方法は面倒です。"
+msgstr ""
+
+#: ../../source/tips.md:82
+msgid "Zオフセット"
+msgstr ""
+
+#: ../../source/tips.md:84
+msgid "Zオフセットを指定すると、描画した時にエフェクトの位置を奥行き方向に移動します。 移動するとキャラクターにめり込まなくなります。"
+msgstr ""
+
+#: ../../source/tips.md:86
+msgid "Zテスト"
+msgstr ""
+
+#: ../../source/tips.md:88
+msgid "Zテストをオフにすると他のオブジェクトが存在していてもエフェクトが描画されるようになります。 ただ、手前にオブジェクトがあったとしても描画されるので障害物がある場合は注意が必要です。"
+msgstr ""
+
+#: ../../source/tips.md:90
+msgid "剣の軌跡を生成する。"
+msgstr ""
+
+#: ../../source/tips.md:92
+msgid "少し複雑なのでサンプルを用意しました。"
+msgstr ""
+
+#: ../../source/tips.md:95
+msgid "ダウンロード"
+msgstr ""
+
+#: ../../source/tips.md:97
+msgid "剣の軌跡を生成するには、リボンを使用します。"
+msgstr ""
+
+#: ../../source/tips.md:99
+msgid "軌跡と違ってリボンは生成された位置を維持します。"
+msgstr ""
+
+#: ../../source/tips.md:101
+msgid "剣が通過した位置にリボンを配置すれば剣の軌跡のように見えます。"
+msgstr ""
+
+#: ../../source/tips.md:103
+msgid "リボンは剣のノードの子のノードとして生成します。"
+msgstr ""
+
+#: ../../source/tips.md:105
+msgid "剣はモデルで表現するのがいいですが、今回はスプライトの座標を変更して剣のような配置にしました。"
+msgstr ""
+
+#: ../../source/tips.md:107
+msgid "描画パネルから、リボンの座標を変更して、リボンの左と右の距離が剣の長さと同じにします。"
+msgstr ""
+
+#: ../../source/tips.md:109
+msgid "リボンの位置と角度を調節して、剣の先端と終端に一致するように配置します。"
+msgstr ""
+
+#: ../../source/tips.md:111
+msgid "リボンなので、位置への影響、角度への影響、拡大への影響を、全て生成時のみに変更します。"
+msgstr ""
+
+#: ../../source/tips.md:113
+msgid "後はリボンの色やフェードアウト等のパラメーターを調節します。"
+msgstr ""
+
+#: ../../source/tips.md:115
+msgid "剣のパーティクルが移動すると剣の位置に合わせて軌跡が表示されることがわかります。"
+msgstr ""
+
+#: ../../source/tips.md:117
+msgid "剣はFカーブで角度を変更して動かしました。"
+msgstr ""
+
+#: ../../source/tips.md:119
+msgid "このTIPSではEffekseerで剣を動かしていますが、ゲーム中の剣に合わせてエフェクトをゲーム中で動かしても大丈夫です。"
+msgstr ""
+
+#: ../../source/tips.md:121
+msgid "細長いパーティクルの画像について"
+msgstr ""
+
+#: ../../source/tips.md:123
+msgid "細長いパーティクルに正方形の画像を設定した時に、パーティクルから離れたところから見ると表示がおかしくなることがあります。 これはミップマップにより、画像の解像度が低下して、端の画素と中央の画素が同じ位置を指すようになるためです。 これを防ぐためには、画像に細長い画像を使用します。 左が正方形の画像を使用したパーティクル、右が細長い画像を使用したパーティクルです。"
+msgstr ""
+

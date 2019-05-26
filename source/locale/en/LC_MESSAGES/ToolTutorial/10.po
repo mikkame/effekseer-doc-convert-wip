@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/ToolTutorial/10.md:1
+msgid "No10.リボンと軌跡"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:5
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:7
+msgid ""
+"本章では、リボンと軌跡について説明します。 リボンと軌跡は、細長い形状のパーティクルです。 "
+"スプライトでは表現できないエフェクトの余韻などを表現できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:18
+msgid "リボンと軌跡の主な違いはパーティクルの向きです。 リボンはパーティクルの角度に影響されますが、軌跡は常にカメラ方向を向きます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:56
+msgid "あらかじめ作成途中のエフェクトを下記のリンクからダウンロードできるようにしました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:62
+msgid "使い方"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:64
+msgid "リボンと軌跡は、同じ親から生成されたパーティクル間を繋げます。 繋げることで、細長い形状を表現しています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:74
+msgid "通常のスプライトでは、パーティクルは個々に独立しています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:76
+msgid "パーティクル間に距離があれば、リボンと軌跡を使用できますが、 効果的に使用するには親子関係や生成方法と組み合わせる必要があります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:79
+msgid "親子関係"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:81
+msgid ""
+"親のパーティクルは移動するように設定します。 親のパーティクルから一定時間ごとに子のパーティクルが生成されるようにします。 "
+"子のパーティクルは生成された位置に残るようにします。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:85
+msgid "そうすると、親のパーティクルに沿って、帯状のパーティクルが生成されるようになります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:87 ../../source/ToolTutorial/10.md:171
+msgid "実際に試してみましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:89
+msgid "帯が螺旋状に移動するエフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:91
+msgid "effect1-1.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:93
+msgid "親ノードは設定済みです。 親のパーティクルは回転しながら上昇します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:103
+msgid "子ノードのパラメーターも一部は設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:105
+msgid ""
+"重要なのは、位置、角度、拡大の影響が生成時のみになっていることです。 "
+"生成時のみを指定すると、パーティクルが生成された時の親のパラメーターのみの影響を受けます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:108
+msgid ""
+"加えて、子のパーティクルは複数生成される必要があります。 "
+"子のパーティクル間を繋げて軌跡を生成するため、子のパーティクルの量に応じて軌跡の長さが決まります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:111
+msgid "Childノードのパラメーターを設定します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:113
+msgid "Particleノードは飾りなので、Particleノードを編集する必要はないです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:157
+msgid "子のパーティクルは親のパーティクルの軌跡にそって配置されることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:166
+msgid "生成方法"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:168
+msgid ""
+"生成方法を使用すると親子関係を使用しなくても綺麗な軌跡やリボンのパーティクルを生成できます。 "
+"生成方法では、順番に規則的にパーティクルを配置できるため、生成方法で指定した順に軌跡やリボンが生成されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:173
+msgid "先ほどと同じく帯が螺旋状に移動するエフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:175
+msgid "effect1-2.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:177
+msgid "殆どのパラメーターは設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:179
+msgid "生成方法のパラメーターを設定します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:181
+msgid "ノードのパラメーターは以下のようになります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:262
+msgid "生成方法で指定した配置順に沿って軌跡が生成されることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:264
+msgid "軌跡とリボンの違いについて"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:266
+msgid "リボンと軌跡の違いを確認するために、同じパラメーターでリボンと軌跡を変更します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:296
+msgid "リボンはパーティクルの回転の影響を受けるため、向きが傾いていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:298
+msgid "基本的には軌跡の方が便利ですが、剣の軌跡のような回転を要求する場合にリボンを使用します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:300
+msgid "剣のエフェクト"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:302
+msgid ""
+"軌跡では表現できないエフェクトとして、武器の軌跡を表すようなエフェクトがあります。 "
+"ここでは、リボンを使用して剣が通過した位置に生じるエフェクトを作成します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:305
+msgid "effect2.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:307
+msgid "親ノードは回転します。 剣を振るのは一瞬なので、生存時間は30、回転はイージングで角度０から角度180になるように設定します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:310
+msgid "親ノードのパラメーターは設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:312
+msgid "子のノードを設定します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:314
+msgid "先ほどと同じように、位置、角度、拡大の影響を生成時のみにします。 描画方法にリボンに設定します。 位置は（4,0,0）で生成数は３０にします。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:318
+msgid "画像や色は設定済みです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:367
+msgid "剣のようなエフェクトが表示されていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:376
+msgid "最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:382
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/10.md:384
+msgid "本章では、軌跡とリボンについて説明しました。"
+msgstr ""
+

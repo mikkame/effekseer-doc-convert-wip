@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ToolTutorial/04.md:1
+#: ../../source/ToolTutorial/04.md:5
+msgid "No04. 回転、拡大してみよう！"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:7
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:8
+msgid "本章では、パーティクルを回転したり、拡大したりします。 また、スプライトの形状を正方形から長方形に変えてみます。 それにより、複雑なエフェクトを作成できるようになります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:19
+msgid "回転と拡大"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:21
+msgid "あらかじめ作成途中のエフェクトを下記のリンクからダウンロードできるようにしました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:27
+msgid "回転"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:29
+msgid "早速、パーティクルを回転させてみましょう。 回転は「回転」ウインドウから指定できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:32
+msgid "「回転」ウインドウのアイコンをクリックすると回転ウインドウが表示されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:48
+msgid "位置と同じように、回転にも複数を指定方法があります。 初期設定では、角度が選択されています。 これを、位置・速度・加速度に変更します。 そして、速度のzに5を入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:53
+msgid "これは、Z方向(正面方向)を軸として1フレームに5度回転することを表しています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:62
+msgid "入力した後、再生すると...何も変わりません！ これは、スプライトによる描画の初期設定では、パーティクルが回転しても必ず長方形が正面に向くようになっているからです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:65
+msgid "「描画」ウインドウから配置方法をZ軸回転ビルボードに変更します。 Z軸回転ビルボードは長方形は正面を向きつつも、Z軸の回転は有効になる配置方法です。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:75
+msgid "Z軸回転ビルボードにすると、長方形がZ方向(正面方向)を軸に回転していることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:84
+msgid "拡大"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:86
+msgid "位置、回転と同じように、パーティクルを拡大できます。 拡大は「拡大」ウインドウから指定できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:89
+msgid "「拡大」ウインドウのアイコンをクリックすると拡大ウインドウが表示されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:105
+msgid "位置、回転と同じように、回転にも複数を指定方法があります。 初期設定では、拡大率が選択されています。 これを、単一拡大率・速度・加速度に変更します。 そして、拡大速度に0.01を入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:110
+msgid "拡大率もX,Y,Z方向個別に設定することはできますが、全方向に対して拡大率が同じことが多いです。 そのため、単一の拡大率を設定できるようにしています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:120
+msgid "スプライトが回転しつつ、拡大していることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:129
+msgid "スプライトの形状"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:131
+msgid "スプライトは今まで正方形でしたが、これを長方形や台形等に変更できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:133
+msgid "「描画」ウインドウから頂点座標を、標準から固定に変更します。 そうすると、長方形の頂点の座標を設定できるようになります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:136
+msgid "今回は、縦長にするために、以下のように入力しましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:145
+msgid "パーティクルが縦長になっていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:154
+msgid "仕上げ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:156
+msgid "このままでは見栄えが良くないので、下記の変更を行いました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:158
+msgid "「共通」ウインドウ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:160
+msgid "生成数を10に変更"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:162
+msgid "「位置」ウインドウ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:164
+msgid "-位置・速度・加速度に変更 -位置の振幅を2に変更"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:167
+msgid "「描画共通」ウインドウ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:169
+msgid "色/歪み画像にparticle.pngを選択"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:171
+msgid "ブレンドを加算に変更"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:173
+msgid "「回転」ウインドウ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:175
+msgid "角度(振幅)のZを180に変更"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:177
+msgid "「拡大」ウインドウ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:179
+msgid "拡大率を0に変更"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:181
+msgid "結果"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:183
+msgid "これらのパラメーターの変更方法がわからない方は1～3章を復習してみてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:192
+msgid "最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:198
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/04.md:200
+msgid "本章では、スプライトの回転や拡大について説明します。 次章では、今までの知識を生かして実践的なエフェクトを作成します。"
+msgstr ""
+

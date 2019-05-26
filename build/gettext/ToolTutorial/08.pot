@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ToolTutorial/08.md:1
+msgid "No08. 生成方法でパーティクルを並べよう！"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:5
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:7
+msgid "本章では、生成方法を変更して、パーティクルを一定間隔で並べてみます。 生成方法では、パーティクルの最初の姿勢を指定できます。 ノードの親子関係を使えば同じようなことを再現できますが、同じことを簡単に実現できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:46
+msgid "生成方法"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:48
+msgid "Effekseerでは、生成方法を指定できます。 生成方法では、パーティクルが生成されたときの最初の姿勢を指定できます。 例えば、パーティクルを円形に配置したり、球形に配置したりできます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:59
+msgid "位置だけでなく、角度も指定できます。 例えば、パーティクルの上方向が球の外側を向く、といったことができます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:93
+msgid "円形エフェクト"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:95
+msgid "パーティクルを円形に配置します。 パーティクルは時計回りに順番に表示されるようにします。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:98
+msgid "このエフェクトは親子関係を利用して実現できますが、それはとても面倒です。 複雑な配置を簡単に実現するために、生成方法があります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:101
+msgid "effect01.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:103
+msgid "「生成方法」のウインドウは初期設定では表示されていません。 メニューバーから「ウインドウ->生成方法」を選択します。 選択すると「生成方法」ウインドウが表示されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:114
+msgid "「生成方法」ウインドウから、生成方法に円を指定します。 円の半径には4を入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:117
+msgid "円形にパーティクルが表示されることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:126
+msgid "パーティクルはランダムに配置されているため、順番に出現しません。 順番に出現するように、生成位置種類を正順に変更します。 それに加えて、分割数と生成数を12に変更します。 これは、円を均等に12分割した位置にパーティクルを出現させることを示しています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:131
+msgid "円形にパーティクルが均等に表示されることがわかります。 同時に、パーティクルが順番に出現するようになることもわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:141
+msgid "球形エフェクト"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:143
+msgid "パーティクルを球形に配置してみます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:145
+msgid "effect02.efkprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:147
+msgid "円形と同じように、球形も設定できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:149
+msgid "「生成方法」ウインドウから生成方法を球に変更します。 球の半径には4を入力します。 さらに、全方位にパーティクルを配置するためにX軸角度とY軸角度の振れ幅には360度を入力します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:153
+msgid "球形にパーティクルが配置されていることがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:162
+msgid "角度の影響"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:164
+msgid "球の外側方向に向けてパーティクルが飛ぶようにしてみます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:166
+msgid "effect03.efjprojを開いてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:168
+msgid "球の上方向にパーティクルが飛んでいくのがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:177
+msgid "ただ、実際、球形にパーティクルを配置する場合、球の内側方向や外側方向に飛んでほしいことが多いです。 そのような場合、角度に影響にチェックします。 これにチェックすると、生成されるときにパーティクルの上方向が球の外側方向に一致するように回転させます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:181
+msgid "今回の場合、上方向に向かっていたパーティクルが球の外側方向に向かうようになります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:183
+msgid "チェックすると、球の外側方向にパーティクルが飛んでいくのがわかります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:192
+msgid "最後に、本章で作成されたエフェクトをダウンロードできるようにしてみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:198
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/08.md:200
+msgid "本章では、生成方法を変更して、パーティクルを円形や直線状に配置しました。 次章では、ここまでで学んだ知識を元に実践的なエフェクトを作成します。"
+msgstr ""
+

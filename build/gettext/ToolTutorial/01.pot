@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Effekseer
+# This file is distributed under the same license as the EffekseerDoc package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EffekseerDoc \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-26 21:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ToolTutorial/01.md:1
+msgid "% No01.サンプルを見る＆使ってみよう！"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:5
+msgid "概要"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:7
+msgid "本章では、実際にEffekseerを起動してみてサンプルを見つつ基本的な操作方法を説明します。 その後、他のアプリケーション(ゲーム)で使用する方法等を説明します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:17
+msgid "Effekseerの起動"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:19
+msgid "起動方法(Windows)"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:21
+msgid "Effekseerのツールは「Tool/Effekseer.exe」にあります。早速、Tool/Effekseer.exeをダブルクリックして起動してみましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:32
+msgid "Effekseerが起動しない場合(Windows)"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:34
+#: ../../source/ToolTutorial/01.md:66
+msgid "OSが古い"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:36
+msgid "Windows7 SP1以降のみ起動します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:38
+msgid "D3DCompiler_47.dllがインストールされていない"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:40
+msgid "以下のリンクから、それらをダウンロードしてインストールします。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:46
+msgid "Effekseerをzipファイルから直接起動している"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:48
+msgid "ダウンロードしたzipファイルを右クリックして、「全て展開」を選択します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:50
+#: ../../source/ToolTutorial/01.md:74
+msgid "それでも起動しない場合"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:52
+#: ../../source/ToolTutorial/01.md:76
+msgid "公式サイトに問い合わせてみましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:54
+msgid "起動方法(Mac)"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:56
+msgid "Effekseerのツールは「Effekseer.dmg」にあります。早速、EffekseerをApplicationsといった他のディレクトリに移動させて、ダブルクリックで起動してみましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:64
+msgid "Effekseerが起動しない場合(Mac)"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:68
+msgid "macOS Sierra以降のみ起動します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:70
+msgid "Effekseerをdmgから直接起動している"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:72
+msgid "Effekseerを他のディレクトリに移動させましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:78
+msgid "Effekseerが起動した場合"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:80
+msgid "起動に成功した場合、以下のような画面が表示されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:91
+msgid "それでは、実際にサンプルを開いてみてみましょう。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:93
+msgid "サンプルを開く～基本操作"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:95
+msgid "起動した直後は3Dの画面に何も表示されていません。 そこで左下に配置されている再生ボタンを押してみます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:107
+msgid "再生ボタンを押すと画面の中央に白い正方形が表示されました。 この白い正方形はエフェクトを構成する<b>パーティクル</b>です。 エフェクトは沢山の<b>パーティクル</b>で構成されます。 今回は何も設定されておらず、1つしか存在しないため、白い正方形に見えます。 本来であれば、このパーティクルを編集して、見栄えのいいパーティクルにしていくのですが、初めてソフトウェアに触ったばかりの人では難しいです。 そのため、この章では、編集は行いません。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:123
+msgid "白い正方形が表示されるだけでは面白くないので、サンプルファイルを開いてみましょう。 下記のリンクからサンプルファイルをダウンロードして解凍してください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:130
+msgid "そして、「Sample.efkproj」というファイルがあるので、そのファイルを開いてみてください。 メニューバーで「ファイル->開く」と選択するか、ファイルを3Dの画面にドラッグ＆ドロップすると開けます。 ファイルを開いた後、エフェクトを再生すると、以下のような画面が表示されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:143
+msgid "今回のサンプル以外にも、公式サイトには150個以上の自由に使えるサンプルがあります。詳しくは下記のリンクをみてください。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:149
+msgid "今のままでは見ている方向が固定されていますので、視点を移動してみます。 操作方法は以下の表にまとめました。全てマウスで操作できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:169
+msgid "実際に先ほどのサンプルエフェクトを別の方向から見てみました。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:180
+msgid "エフェクトを編集しやすくするために、エフェクトの再生は常にループするようになっています。 ループする範囲は左下のテキストボックスから変更できます。Effekseerの時間は<b>1/60秒</b>単位で進みます。 そのため、初期設定では0～2秒の範囲が再生されています。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:193
+msgid "外部での使い方"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:195
+msgid "エフェクトを作成するだけなら、この項は読む必要はありません。 ただ、作成したエフェクトは他のアプリケーションに使用する場合が多いです。 ここでは外部のアプリケーションで作成したエフェクトを使用する2種類の方法について説明します。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:199
+msgid "録画"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:201
+msgid "Effekseerでは、一定時間ごとにエフェクトを撮影した画像が並べられているスプライトシートやgifアニメーションを出力できます。 メニューバーで「ウインドウ->録画」を選択すると「録画ウインドウ」が表示されます。 ここでは、エフェクトを撮影する頻度や画像サイズといった録画に関するパラメータを設定できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:214
+msgid "Effekseerでは、一定時間ごとにエフェクトを撮影した画像が並べられているスプライトシートや動画ファイルを出力できます。 スプライトシートとは、アニメーションの画像が順番に配置された画像のことです。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:217
+msgid "パラメーターを設定して、「録画」を押すと、録画された結果を保存する先を指定するダイアログが表示されます。 ダイアログで保存を押すと、指定した先に録画された結果が保存されます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:220
+msgid "出力されたスプライトシートは、ただの画像ですので他のアプリケーションで容易に使用できます。 動画ファイルもAfterEffects等の映像編集ソフトで使用できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:232
+msgid "3D向けファイル"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:234
+msgid "Effekseerでは、他のアプリケーションでEffekseerのエフェクトを直接再生するためのefkファイルを出力できます。 「ファイル->出力->標準形式」を選択することでefkファイルを出力できます。 このファイルは、Effekseerのパッケージを追加したUnityや、ライブラリを追加したcocos2d-x等で読み込めます。 また、独自のゲームエンジン等でもランタイムを組み込むことで読み込めるようになります。(開発者と相談してください。)"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:248
+msgid "サンプルエフェクトについて"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:250
+msgid "Effekseerの公式サイトにはサンプルエフェクトがたくさん用意されています。これらは有償無償問わず、 何の制限もなしに使用できます。そのまま、録画して開発中のゲームに使用してもいいですし、 新しくエフェクトを作成するときの素材として使用しても問題ありません。 ほとんどのシチュエーションのエフェクトが揃っているので、色を変更するだけでもゲーム1つ分のエフェクトを用意できます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:268
+msgid "義務ではありませんが、サンプルエフェクトを使用した場合、サンプルエフェクトを作成した作者の名前を表記していただけると助かります。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:270
+msgid "エフェクトの構造の参考にするときにも使用できます。最初は複雑すぎてわからないかもしれないですが、 次の章からエフェクトの作成方法について、ゆっくり説明してきます。"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:273
+msgid "まとめ"
+msgstr ""
+
+#: ../../source/ToolTutorial/01.md:275
+msgid "本章では基本的な操作や外部アプリケーションでのエフェクトの再生方法について説明しました。 次章からはエフェクトの作成方法について説明します。"
+msgstr ""
+
