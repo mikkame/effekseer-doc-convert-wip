@@ -7,4 +7,5 @@ Top
 
     /index
     /overview
+    /tips
     /faq
