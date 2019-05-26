@@ -4,11 +4,12 @@
 ### 編集ツール(Windows)
  Windows7 SP1以降のPC
  もし起動しない場合は下記のリンクからD3DCompiler_47.dllをインストールしてください。
-a(href='https://support.microsoft.com/ja-jp/help/4020302/the-net-framework-4-7-installation-is-blocked-on-windows-7-windows-ser') D3DCompiler_47.dll
+[D3DCompiler_47.dll](https://support.microsoft.com/ja-jp/help/4020302/the-net-framework-4-7-installation-is-blocked-on-windows-7-windows-ser)
+
 ### 編集ツール(macOS)
  macOS Sierra以降のPC
  もし起動しない場合は下記のリンクからmonoをインストールしてください。
-a(href='https://www.mono-project.com/') mono
+[mono](https://www.mono-project.com/) 
 ### ランタイム
 
 - DirectX9(ShaderModel2.0以上)
@@ -23,13 +24,13 @@ a(href='https://www.mono-project.com/') mono
 ゲーム中でエフェクトを再生する場合はランタイム、Unity、DXライブラリといった別途パッケージをダウンロードするようお願いします。
 
 連番画像等の画像としてエフェクトを再生する場合は、
-a(href='ToolReference/record.html') 録画
+[録画](ToolReference/record.html) 
 を参照してください。
 ## ライセンス
 
 ランタイムのライセンスはMITライセンスとなっております。
 また、
-a(href='https://directxtk.codeplex.com/') DirectX Tool Kit
+[DirectX Tool Kit](https://directxtk.codeplex.com/)
 を使用しております。
 
 テクスチャ及びエフェクトのデータはCC-0です。ご自由にお使いください。

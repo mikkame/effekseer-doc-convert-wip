@@ -8,4 +8,5 @@ Top
     /index
     /overview
     /tips
+    /ToolTutorial/index
     /faq
